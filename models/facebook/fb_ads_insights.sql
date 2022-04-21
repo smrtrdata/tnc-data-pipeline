@@ -1,4 +1,4 @@
-{% set accounts = get_column_values(table=ref('accounts_proc'), column='bigquery_name', max_records=50, filter_column='platform', filter_value='FB Ads') %}
+{% set accounts = get_column_values(table=ref('accounts_proc'), column='account', max_records=50, filter_column='platform', filter_value='FB Ads') %}
 
 {% if accounts != [] %}
 
