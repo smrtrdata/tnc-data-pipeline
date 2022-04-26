@@ -16,7 +16,7 @@ with fb_ads_insights as (
 			inline_link_clicks,
 			##_sdc_sequence,
 			##first_value(_sdc_sequence) OVER (PARTITION BY date_start, ad_id, campaign_id ORDER BY _sdc_sequence DESC) lv
-			FROM `{{ target.project }}.fb_{{account}}.ads_insights`
+			FROM `{{ target.project }}.{{account}}.ads_insights`
 		    {% if not loop.last %} UNION ALL {% endif %}
 	   {% endfor %}
 
