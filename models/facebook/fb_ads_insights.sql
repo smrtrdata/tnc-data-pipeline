@@ -15,9 +15,7 @@ WITH fb_ads_insights as (
 			ad_id,
 			ad_name,
 			spend,
-			cpm,
 			inline_link_click_ctr,
-			reach,
 			impressions,
 			inline_link_clicks,
 			##_sdc_sequence,
@@ -37,14 +35,9 @@ adset_id,
 adset_name,
 ad_id,
 ad_name,
-sum(spend) cost,
-avg(cpm) cpm,
-sum(reach) reach,
-sum(impressions) impressions,
-sum(inline_link_clicks) clicks,
-safe_divide(sum(spend),sum(inline_link_clicks)) cpc,
-safe_divide(sum(inline_link_clicks),sum(reach)) ctr
-
+sum(spend) fb_cost,
+sum(impressions) fb_impressions,
+sum(inline_link_clicks) fb_clicks,
 FROM fb_ads_insights
 ##where lv = _sdc_sequence
 GROUP BY 
