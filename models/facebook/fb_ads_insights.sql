@@ -7,7 +7,7 @@ WITH fb_ads_insights as (
 	    {% for account in accounts %}
 		   	SELECT 
 		   	account_name
-			,date_start,
+			,date_start
 			,campaign_id
 			,campaign_name
 			,adset_id
