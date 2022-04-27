@@ -64,6 +64,7 @@ account
 ,ad_name
 ,channel
 ,platform
+,campaign_advertising_channel_type
 
 
   );
