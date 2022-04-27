@@ -53,5 +53,7 @@ account
 ,adset_name
 ,ad_id
 ,ad_name
+,channel
+,platform
 
 {% endif %}
