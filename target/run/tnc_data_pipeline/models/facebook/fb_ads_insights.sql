@@ -18,7 +18,7 @@ WITH fb_ads_insights as (
 		   	,'Facebook Ads' as platform
 		   	,"null" as campaign_advertising_channel_type
 			,date_start
-			,campaign_id
+			,cast(campaign_id as INT64) campaign_id
 			,campaign_name
 			,adset_id
 			,adset_name
