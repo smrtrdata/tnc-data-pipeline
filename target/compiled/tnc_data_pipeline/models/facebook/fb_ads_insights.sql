@@ -42,8 +42,8 @@ avg(cpm) cpm,
 sum(reach) reach,
 sum(impressions) impressions,
 sum(inline_link_clicks) clicks,
-sum(spend)/sum(inline_link_clicks) cpc,
-sum(inline_link_clicks)/sum(reach) ctr
+safe_divide(sum(spend),sum(inline_link_clicks)) cpc,
+safe_divide(sum(inline_link_clicks),sum(reach)) ctr
 
 FROM fb_ads_insights
 ##where lv = _sdc_sequence
