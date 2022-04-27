@@ -1,8 +1,11 @@
 
 
-  create or replace view `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+  create or replace table `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+  
+  
   OPTIONS()
-  as select
+  as (
+    select
 site,
 bigquery_name,
 account,
@@ -19,5 +22,6 @@ from  (
 	from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.accounts`
 ) 
 
-where lv = time_of_entry;
-
+where lv = time_of_entry
+  );
+  

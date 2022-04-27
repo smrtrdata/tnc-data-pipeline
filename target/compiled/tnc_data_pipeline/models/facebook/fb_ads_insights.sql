@@ -2,16 +2,21 @@
 
 
 
-with fb_ads_insights as (
+WITH fb_ads_insights as (
 
 	    
 		   	SELECT 
+		   	account_name,
 			date_start,
 			campaign_id,
 			campaign_name,
+			adset_id,
+			adset_name,
 			ad_id,
-			account_name,
+			ad_name
 			spend,
+			cpm,
+			inline_link_click_ctr,
 			reach,
 			inline_link_clicks,
 			##_sdc_sequence,
@@ -22,16 +27,32 @@ with fb_ads_insights as (
 
 )
 
-select
+SELECT
+account_name account,
 date_start date,
 campaign_id,
 campaign_name campaign,
+adset_id,
+adset_name,
 ad_id,
-account_name account,
-max(spend) cost,
-max(reach) impressions,
-max(inline_link_clicks) clicks
-from fb_ads_insights
+ad_name,
+sum(spend) cost,
+avg(cpm) cpm,
+sum(reach) reach,
+sum(impressions) impressions,
+sum(inline_link_clicks) clicks,
+sum(spend)/sum(inline_link_click) cpc,
+sum(inline_link_clicks)/sum(reach) ctr
+
+FROM fb_ads_insights
 ##where lv = _sdc_sequence
-group by date, campaign_id, ad_id, account, campaign
+GROUP BY 
+account_name account,
+date_start date,
+campaign_id,
+campaign_name campaign,
+adset_id,
+adset_name,
+ad_id,
+ad_name,
 

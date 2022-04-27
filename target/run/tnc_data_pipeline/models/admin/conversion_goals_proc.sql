@@ -1,8 +1,11 @@
 
 
-  create or replace view `tnc-data-pipeline-347720`.`development`.`conversion_goals_proc`
+  create or replace table `tnc-data-pipeline-347720`.`development`.`conversion_goals_proc`
+  
+  
   OPTIONS()
-  as select distinct
+  as (
+    select distinct
 site,
 bigquery_name,
 platform,
@@ -25,5 +28,6 @@ from  (
 
 ) 
 where lv = time_of_entry
-and date(time_of_entry) = (select date(max(time_of_entry)) from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.conversion_goals`);
-
+and date(time_of_entry) = (select date(max(time_of_entry)) from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.conversion_goals`)
+  );
+  
