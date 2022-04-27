@@ -20,7 +20,7 @@ WITH fb_ads_insights as (
 			adset_id,
 			adset_name,
 			ad_id,
-			ad_name
+			ad_name,
 			spend,
 			cpm,
 			inline_link_click_ctr,
