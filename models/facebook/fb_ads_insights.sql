@@ -7,6 +7,8 @@ WITH fb_ads_insights as (
 	    {% for account in accounts %}
 		   	SELECT 
 		   	account_name
+		   	'Paid' as channel
+		   	'Facebook Ads' as platform
 			,date_start
 			,campaign_id
 			,campaign_name
@@ -29,6 +31,8 @@ WITH fb_ads_insights as (
 SELECT
 account_name account
 ,date_start date
+,channel
+,platform
 ,campaign_id
 ,campaign_name campaign
 ,adset_id
