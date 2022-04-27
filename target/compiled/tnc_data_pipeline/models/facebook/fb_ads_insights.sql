@@ -16,7 +16,7 @@ with fb_ads_insights as (
 			inline_link_clicks,
 			##_sdc_sequence,
 			##first_value(_sdc_sequence) OVER (PARTITION BY date_start, ad_id, campaign_id ORDER BY _sdc_sequence DESC) lv
-			FROM `tnc-data-pipeline-347720.fb_fb_thenursecoaches.ads_insights`
+			FROM `tnc-data-pipeline-347720.fb_thenursecoaches.ads_insights`
 		    
 	   
 
