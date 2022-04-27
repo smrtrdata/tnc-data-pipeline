@@ -10,6 +10,12 @@ account
 ,cost
 ,impressions
 ,clicks
+,cost as fb_cost
+,impressions as fb_impressions
+,clicks as fb_clicks
+,0 as google_ads_cost
+,0 as google_ads_impressions
+,0 as google_ads_clicks
 FROM {{ ref('fb_ads_campaigns') }}
 
 
@@ -29,4 +35,10 @@ account
 ,cost
 ,impressions
 ,clicks
+,cost as google_ads_cost
+,impressions as google_ads_impressions
+,clicks as google_ads_clicks
+,0 as fb_cost
+,0 as fb_impressions
+,0 as fb_clicks
 FROM {{ ref('google_ads_campaigns') }}
