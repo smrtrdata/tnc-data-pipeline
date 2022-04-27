@@ -6,7 +6,7 @@
 
 SELECT
 date
-,campaignid
+,campaign_id
 ,campaign_name
 ,campaign_advertising_channel_type
 ,channel
@@ -14,7 +14,6 @@ date
 ,sum(cost) cost
 ,sum(impressions) impressions
 ,sum(clicks) clicks
-,sum(conversions) conversions
 FROM
 ( 
 {% for account in accounts %}
@@ -22,19 +21,20 @@ FROM
 	'Paid' as channel
 	,'Adwords' as platform
 	,date
-	,campaignid
+	,campaign_id
 	,campaign_name
+	,campaign_advertising_channel_type
 	,cost_micros/1000000 cost
 	,impressions
 	,clicks
 	,_sdc_sequence
-	,first_value(_sdc_sequence) OVER (PARTITION BY campaignid, day ORDER BY _sdc_sequence DESC) lv
+	,first_value(_sdc_sequence) OVER (PARTITION BY campaignid, date ORDER BY _sdc_sequence DESC) lv
 	FROM `{{ target.project }}.{{account}}.campaign_performance_report`
 
 {% if not loop.last %} UNION ALL {% endif %}
 {% endfor %}
 )
 WHERE lv = _sdc_sequence
-GROUP BY date, campaignid, account, channel, platform, campaign
+GROUP BY date, campaign_id, account, channel, platform, campaign_name, campaign_advertising_channel_type
 
 {% endif %}
