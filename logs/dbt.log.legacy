@@ -8798,3 +8798,147 @@ ad_name
 2022-04-27 17:51:47.200307 (Thread-219): handling status request
 2022-04-27 17:51:47.200714 (Thread-219): 17:51:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82f008a9a0>]}
 2022-04-27 17:51:47.202155 (Thread-219): sending response (<Response 35938 bytes [200 OK]>) to 10.0.32.205
+2022-04-27 17:51:50.249835 (Thread-220): 17:51:50  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-04-27 17:51:50.250179 (Thread-220): 17:51:50  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8323ca68e0>]}
+2022-04-27 17:51:50.394613 (Thread-220): 17:51:50  Parsing macros/get_column_values.sql
+2022-04-27 17:51:50.399160 (Thread-220): 17:51:50  Parsing macros/adapters.sql
+2022-04-27 17:51:50.421886 (Thread-220): 17:51:50  Parsing macros/etc.sql
+2022-04-27 17:51:50.423786 (Thread-220): 17:51:50  Parsing macros/catalog.sql
+2022-04-27 17:51:50.429499 (Thread-220): 17:51:50  Parsing macros/materializations/table.sql
+2022-04-27 17:51:50.433370 (Thread-220): 17:51:50  Parsing macros/materializations/seed.sql
+2022-04-27 17:51:50.435888 (Thread-220): 17:51:50  Parsing macros/materializations/incremental.sql
+2022-04-27 17:51:50.451021 (Thread-220): 17:51:50  Parsing macros/materializations/copy.sql
+2022-04-27 17:51:50.453633 (Thread-220): 17:51:50  Parsing macros/materializations/snapshot.sql
+2022-04-27 17:51:50.455297 (Thread-220): 17:51:50  Parsing macros/materializations/view.sql
+2022-04-27 17:51:50.457831 (Thread-220): 17:51:50  Parsing macros/adapters/metadata.sql
+2022-04-27 17:51:50.464901 (Thread-220): 17:51:50  Parsing macros/adapters/columns.sql
+2022-04-27 17:51:50.474612 (Thread-220): 17:51:50  Parsing macros/adapters/freshness.sql
+2022-04-27 17:51:50.477503 (Thread-220): 17:51:50  Parsing macros/adapters/persist_docs.sql
+2022-04-27 17:51:50.481860 (Thread-220): 17:51:50  Parsing macros/adapters/relation.sql
+2022-04-27 17:51:50.491271 (Thread-220): 17:51:50  Parsing macros/adapters/schema.sql
+2022-04-27 17:51:50.493431 (Thread-220): 17:51:50  Parsing macros/adapters/indexes.sql
+2022-04-27 17:51:50.496141 (Thread-220): 17:51:50  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-04-27 17:51:50.498565 (Thread-220): 17:51:50  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-04-27 17:51:50.500057 (Thread-220): 17:51:50  Parsing macros/get_custom_name/get_custom_database.sql
+2022-04-27 17:51:50.501606 (Thread-220): 17:51:50  Parsing macros/etc/datetime.sql
+2022-04-27 17:51:50.509851 (Thread-220): 17:51:50  Parsing macros/etc/statement.sql
+2022-04-27 17:51:50.514240 (Thread-220): 17:51:50  Parsing macros/generic_test_sql/unique.sql
+2022-04-27 17:51:50.514977 (Thread-220): 17:51:50  Parsing macros/generic_test_sql/not_null.sql
+2022-04-27 17:51:50.515552 (Thread-220): 17:51:50  Parsing macros/generic_test_sql/accepted_values.sql
+2022-04-27 17:51:50.516946 (Thread-220): 17:51:50  Parsing macros/generic_test_sql/relationships.sql
+2022-04-27 17:51:50.517881 (Thread-220): 17:51:50  Parsing macros/materializations/configs.sql
+2022-04-27 17:51:50.520201 (Thread-220): 17:51:50  Parsing macros/materializations/hooks.sql
+2022-04-27 17:51:50.523983 (Thread-220): 17:51:50  Parsing macros/materializations/models/table/table.sql
+2022-04-27 17:51:50.531454 (Thread-220): 17:51:50  Parsing macros/materializations/models/table/create_table_as.sql
+2022-04-27 17:51:50.534364 (Thread-220): 17:51:50  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-04-27 17:51:50.537073 (Thread-220): 17:51:50  Parsing macros/materializations/models/view/helpers.sql
+2022-04-27 17:51:50.538417 (Thread-220): 17:51:50  Parsing macros/materializations/models/view/create_view_as.sql
+2022-04-27 17:51:50.540785 (Thread-220): 17:51:50  Parsing macros/materializations/models/view/view.sql
+2022-04-27 17:51:50.548129 (Thread-220): 17:51:50  Parsing macros/materializations/models/incremental/incremental.sql
+2022-04-27 17:51:50.558138 (Thread-220): 17:51:50  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-04-27 17:51:50.573632 (Thread-220): 17:51:50  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-04-27 17:51:50.575223 (Thread-220): 17:51:50  Parsing macros/materializations/models/incremental/merge.sql
+2022-04-27 17:51:50.586465 (Thread-220): 17:51:50  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-04-27 17:51:50.590948 (Thread-220): 17:51:50  Parsing macros/materializations/seeds/helpers.sql
+2022-04-27 17:51:50.613581 (Thread-220): 17:51:50  Parsing macros/materializations/seeds/seed.sql
+2022-04-27 17:51:50.622719 (Thread-220): 17:51:50  Parsing macros/materializations/tests/helpers.sql
+2022-04-27 17:51:50.625423 (Thread-220): 17:51:50  Parsing macros/materializations/tests/test.sql
+2022-04-27 17:51:50.631801 (Thread-220): 17:51:50  Parsing macros/materializations/tests/where_subquery.sql
+2022-04-27 17:51:50.634429 (Thread-220): 17:51:50  Parsing macros/materializations/snapshots/helpers.sql
+2022-04-27 17:51:50.651070 (Thread-220): 17:51:50  Parsing macros/materializations/snapshots/strategies.sql
+2022-04-27 17:51:50.676685 (Thread-220): 17:51:50  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-04-27 17:51:50.679025 (Thread-220): 17:51:50  Parsing macros/materializations/snapshots/snapshot.sql
+2022-04-27 17:51:50.696456 (Thread-220): 17:51:50  Parsing tests/generic/builtin.sql
+2022-04-27 17:51:50.700958 (Thread-220): 17:51:50  Parsing macros/sql/pivot.sql
+2022-04-27 17:51:50.705899 (Thread-220): 17:51:50  Parsing macros/sql/star.sql
+2022-04-27 17:51:50.710012 (Thread-220): 17:51:50  Parsing macros/sql/surrogate_key.sql
+2022-04-27 17:51:50.713499 (Thread-220): 17:51:50  Parsing macros/sql/get_query_results_as_dict.sql
+2022-04-27 17:51:50.715955 (Thread-220): 17:51:50  Parsing macros/sql/date_spine.sql
+2022-04-27 17:51:50.720576 (Thread-220): 17:51:50  Parsing macros/sql/get_column_values.sql
+2022-04-27 17:51:50.725911 (Thread-220): 17:51:50  Parsing macros/sql/groupby.sql
+2022-04-27 17:51:50.727285 (Thread-220): 17:51:50  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-04-27 17:51:50.733502 (Thread-220): 17:51:50  Parsing macros/sql/nullcheck_table.sql
+2022-04-27 17:51:50.735130 (Thread-220): 17:51:50  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-04-27 17:51:50.736810 (Thread-220): 17:51:50  Parsing macros/sql/get_relations_by_pattern.sql
+2022-04-27 17:51:50.740190 (Thread-220): 17:51:50  Parsing macros/sql/get_relations_by_prefix.sql
+2022-04-27 17:51:50.743563 (Thread-220): 17:51:50  Parsing macros/sql/safe_add.sql
+2022-04-27 17:51:50.745280 (Thread-220): 17:51:50  Parsing macros/sql/haversine_distance.sql
+2022-04-27 17:51:50.751647 (Thread-220): 17:51:50  Parsing macros/sql/unpivot.sql
+2022-04-27 17:51:50.759361 (Thread-220): 17:51:50  Parsing macros/sql/generate_series.sql
+2022-04-27 17:51:50.763583 (Thread-220): 17:51:50  Parsing macros/sql/nullcheck.sql
+2022-04-27 17:51:50.765249 (Thread-220): 17:51:50  Parsing macros/sql/union.sql
+2022-04-27 17:51:50.773541 (Thread-220): 17:51:50  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-04-27 17:51:50.797541 (Thread-220): 17:51:50  Parsing macros/jinja_helpers/pretty_time.sql
+2022-04-27 17:51:50.798897 (Thread-220): 17:51:50  Parsing macros/jinja_helpers/slugify.sql
+2022-04-27 17:51:50.800156 (Thread-220): 17:51:50  Parsing macros/jinja_helpers/log_info.sql
+2022-04-27 17:51:50.801346 (Thread-220): 17:51:50  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-04-27 17:51:50.802508 (Thread-220): 17:51:50  Parsing macros/web/get_url_parameter.sql
+2022-04-27 17:51:50.804129 (Thread-220): 17:51:50  Parsing macros/web/get_url_path.sql
+2022-04-27 17:51:50.806734 (Thread-220): 17:51:50  Parsing macros/web/get_url_host.sql
+2022-04-27 17:51:50.808716 (Thread-220): 17:51:50  Parsing macros/schema_tests/expression_is_true.sql
+2022-04-27 17:51:50.810537 (Thread-220): 17:51:50  Parsing macros/schema_tests/not_constant.sql
+2022-04-27 17:51:50.811854 (Thread-220): 17:51:50  Parsing macros/schema_tests/sequential_values.sql
+2022-04-27 17:51:50.814608 (Thread-220): 17:51:50  Parsing macros/schema_tests/not_null_proportion.sql
+2022-04-27 17:51:50.816853 (Thread-220): 17:51:50  Parsing macros/schema_tests/at_least_one.sql
+2022-04-27 17:51:50.818170 (Thread-220): 17:51:50  Parsing macros/schema_tests/equality.sql
+2022-04-27 17:51:50.821873 (Thread-220): 17:51:50  Parsing macros/schema_tests/test_not_null_where.sql
+2022-04-27 17:51:50.823347 (Thread-220): 17:51:50  Parsing macros/schema_tests/equal_rowcount.sql
+2022-04-27 17:51:50.825070 (Thread-220): 17:51:50  Parsing macros/schema_tests/not_accepted_values.sql
+2022-04-27 17:51:50.827209 (Thread-220): 17:51:50  Parsing macros/schema_tests/test_unique_where.sql
+2022-04-27 17:51:50.828707 (Thread-220): 17:51:50  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-04-27 17:51:50.837368 (Thread-220): 17:51:50  Parsing macros/schema_tests/relationships_where.sql
+2022-04-27 17:51:50.839546 (Thread-220): 17:51:50  Parsing macros/schema_tests/accepted_range.sql
+2022-04-27 17:51:50.842005 (Thread-220): 17:51:50  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-04-27 17:51:50.843853 (Thread-220): 17:51:50  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-04-27 17:51:50.846868 (Thread-220): 17:51:50  Parsing macros/schema_tests/recency.sql
+2022-04-27 17:51:50.848829 (Thread-220): 17:51:50  Parsing macros/schema_tests/cardinality_equality.sql
+2022-04-27 17:51:50.849399 (Thread-221): handling status request
+2022-04-27 17:51:50.851544 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/split_part.sql
+2022-04-27 17:51:50.851961 (Thread-221): 17:51:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e879b310>]}
+2022-04-27 17:51:50.853833 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/length.sql
+2022-04-27 17:51:50.854345 (Thread-221): sending response (<Response 185 bytes [200 OK]>) to 10.0.32.205
+2022-04-27 17:51:50.855806 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-04-27 17:51:50.859868 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/right.sql
+2022-04-27 17:51:50.862121 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/hash.sql
+2022-04-27 17:51:50.863592 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/replace.sql
+2022-04-27 17:51:50.864998 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-04-27 17:51:50.866826 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/concat.sql
+2022-04-27 17:51:50.867367 (Thread-222): handling status request
+2022-04-27 17:51:50.868578 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/_is_relation.sql
+2022-04-27 17:51:50.868920 (Thread-222): 17:51:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e877d940>]}
+2022-04-27 17:51:50.870275 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/identifier.sql
+2022-04-27 17:51:50.870720 (Thread-222): sending response (<Response 185 bytes [200 OK]>) to 10.0.32.205
+2022-04-27 17:51:50.872500 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/datediff.sql
+2022-04-27 17:51:50.882455 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/dateadd.sql
+2022-04-27 17:51:50.885740 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/datatypes.sql
+2022-04-27 17:51:50.891712 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/position.sql
+2022-04-27 17:51:50.893336 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/literal.sql
+2022-04-27 17:51:50.894392 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-04-27 17:51:50.896352 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/width_bucket.sql
+2022-04-27 17:51:50.901457 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/date_trunc.sql
+2022-04-27 17:51:50.902962 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/except.sql
+2022-04-27 17:51:50.904264 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/safe_cast.sql
+2022-04-27 17:51:50.906103 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/last_day.sql
+2022-04-27 17:51:50.909649 (Thread-220): 17:51:50  Parsing macros/cross_db_utils/intersect.sql
+2022-04-27 17:51:51.244699 (Thread-220): 17:51:51  1603: static parser failed on facebook/fb_ads_insights.sql
+2022-04-27 17:51:51.250341 (Thread-220): 17:51:51  1602: parser fallback to jinja rendering on facebook/fb_ads_insights.sql
+2022-04-27 17:51:51.251541 (Thread-220): 17:51:51  1603: static parser failed on admin/conversion_goals_proc.sql
+2022-04-27 17:51:51.427141 (Thread-220): 17:51:51  1602: parser fallback to jinja rendering on admin/conversion_goals_proc.sql
+2022-04-27 17:51:51.428502 (Thread-220): 17:51:51  1603: static parser failed on admin/accounts_proc.sql
+2022-04-27 17:51:51.432033 (Thread-220): 17:51:51  1602: parser fallback to jinja rendering on admin/accounts_proc.sql
+2022-04-27 17:51:51.502980 (Thread-220): 17:51:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82f0326d60>]}
+2022-04-27 17:51:52.119961 (Thread-223): handling status request
+2022-04-27 17:51:52.120372 (Thread-223): 17:51:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82f0326430>]}
+2022-04-27 17:51:52.121859 (Thread-223): sending response (<Response 35938 bytes [200 OK]>) to 10.0.32.205
+2022-04-27 17:51:52.156200 (Thread-224): handling status request
+2022-04-27 17:51:52.156538 (Thread-224): 17:51:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82f03265b0>]}
+2022-04-27 17:51:52.157856 (Thread-224): sending response (<Response 35938 bytes [200 OK]>) to 10.0.32.205
+2022-04-27 17:54:44.952588 (Thread-225): handling status request
+2022-04-27 17:54:44.952995 (Thread-225): 17:54:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82f0312f40>]}
+2022-04-27 17:54:44.954440 (Thread-225): sending response (<Response 35938 bytes [200 OK]>) to 10.0.32.205
+2022-04-27 17:54:44.955508 (Thread-226): handling status request
+2022-04-27 17:54:44.955885 (Thread-226): 17:54:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82f03265b0>]}
+2022-04-27 17:54:44.957284 (Thread-226): sending response (<Response 35938 bytes [200 OK]>) to 10.0.32.205
+2022-04-27 17:54:48.223004 (Thread-227): handling status request
+2022-04-27 17:54:48.223373 (Thread-227): 17:54:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2fb6d387-061d-49ac-a625-83301620fe8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82f0312e50>]}
+2022-04-27 17:54:48.224929 (Thread-227): sending response (<Response 35938 bytes [200 OK]>) to 10.0.32.205
