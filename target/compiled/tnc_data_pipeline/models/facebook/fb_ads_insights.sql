@@ -42,8 +42,8 @@ FROM fb_ads_insights
 ##where lv = _sdc_sequence
 GROUP BY 
 account
-date
-campaign_id
+,date
+,campaign_id
 ,campaign
 ,adset_id
 ,adset_name
