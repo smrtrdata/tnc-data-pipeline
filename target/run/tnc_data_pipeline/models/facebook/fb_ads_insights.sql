@@ -25,6 +25,7 @@ WITH fb_ads_insights as (
 			cpm,
 			inline_link_click_ctr,
 			reach,
+			impressions,
 			inline_link_clicks,
 			##_sdc_sequence,
 			##first_value(_sdc_sequence) OVER (PARTITION BY date_start, ad_id, campaign_id ORDER BY _sdc_sequence DESC) lv
