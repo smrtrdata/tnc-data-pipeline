@@ -7,8 +7,8 @@ WITH fb_ads_insights as (
 	    {% for account in accounts %}
 		   	SELECT 
 		   	account_name
-		   	'Paid' as channel
-		   	'Facebook Ads' as platform
+		   	,'Paid' as channel
+		   	,'Facebook Ads' as platform
 			,date_start
 			,campaign_id
 			,campaign_name
