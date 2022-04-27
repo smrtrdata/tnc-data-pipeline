@@ -55,13 +55,13 @@ FROM fb_ads_insights
 ##where lv = _sdc_sequence
 GROUP BY 
 account,
-date_start date,
+date,
 campaign_id,
 campaign,
 adset_id,
 adset_name,
 ad_id,
-ad_name,
+ad_name
 
 
   );
