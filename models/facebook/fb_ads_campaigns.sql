@@ -1,5 +1,5 @@
 SELECT
-account_name account
+account
 ,date_start date
 ,campaign_id
 ,campaign_name campaign
