@@ -18,6 +18,7 @@ FROM
 ( 
 {% for account in accounts %}
 	SELECT  
+	{{account}} as account
 	'Paid' as channel
 	,'Adwords' as platform
 	,date
@@ -28,13 +29,13 @@ FROM
 	,impressions
 	,clicks
 	,_sdc_sequence
-	,first_value(_sdc_sequence) OVER (PARTITION BY campaign_id, date ORDER BY _sdc_sequence DESC) lv
+	,first_value(_sdc_sequence) OVER (PARTITION BY campaign_id, date, account ORDER BY _sdc_sequence DESC) lv
 	FROM `{{ target.project }}.{{account}}.campaign_performance_report`
 
 {% if not loop.last %} UNION ALL {% endif %}
 {% endfor %}
 )
 WHERE lv = _sdc_sequence
-GROUP BY date, campaign_id, account, channel, platform, campaign_name, campaign_advertising_channel_type
+GROUP BY date, campaign_id, channel, platform, account, campaign_name, campaign_advertising_channel_type
 
 {% endif %}
