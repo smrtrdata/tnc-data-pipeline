@@ -25,7 +25,8 @@ FROM
 ( 
 
 	SELECT  
-	'Paid' as channel
+	"google_ads_thenursecoaches" as account
+	,'Paid' as channel
 	,'Adwords' as platform
 	,date
 	,campaign_id
@@ -42,7 +43,8 @@ FROM
 
 )
 WHERE lv = _sdc_sequence
-GROUP BY date, campaign_id, account, channel, platform, campaign_name, campaign_advertising_channel_type
+GROUP BY date, campaign_id, channel, platform, account, campaign_name, campaign_advertising_channel_type
+ORDER BY DATE DESC 
 
 
   );
