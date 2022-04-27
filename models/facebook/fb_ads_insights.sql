@@ -45,6 +45,7 @@ account_name account
 ,sum(impressions) impressions
 ,sum(inline_link_clicks) clicks
 FROM fb_ads_insights
+
 ##where lv = _sdc_sequence
 GROUP BY 
 account
