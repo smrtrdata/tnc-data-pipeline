@@ -6,8 +6,9 @@
 
 SELECT
 date
+,account
 ,campaign_id
-,campaign_name
+,campaign_name campaign
 ,campaign_advertising_channel_type
 ,channel
 ,platform
