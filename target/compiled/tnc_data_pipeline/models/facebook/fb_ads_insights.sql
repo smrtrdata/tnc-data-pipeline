@@ -9,6 +9,7 @@ WITH fb_ads_insights as (
 		   	account_name
 		   	,'Paid' as channel
 		   	,'Facebook Ads' as platform
+		   	,"null" as campaign_advertising_channel_type
 			,date_start
 			,campaign_id
 			,campaign_name
@@ -33,15 +34,16 @@ account_name account
 ,date_start date
 ,channel
 ,platform
+,campaign_advertising_channel_type
 ,campaign_id
 ,campaign_name campaign
 ,adset_id
 ,adset_name
 ,ad_id
 ,ad_name
-,sum(spend) fb_cost
-,sum(impressions) fb_impressions
-,sum(inline_link_clicks) fb_clicks
+,sum(spend) cost
+,sum(impressions) impressions
+,sum(inline_link_clicks) clicks
 FROM fb_ads_insights
 ##where lv = _sdc_sequence
 GROUP BY 
