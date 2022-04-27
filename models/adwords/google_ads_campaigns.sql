@@ -36,3 +36,5 @@ FROM
 )
 WHERE lv = _sdc_sequence
 GROUP BY date, campaignid, account, channel, platform, campaign
+
+{% endif %}
