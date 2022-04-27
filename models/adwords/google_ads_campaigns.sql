@@ -24,9 +24,9 @@ FROM
 	,date
 	,campaignid
 	,campaign_name
-	,cost_micros/1000000 cost,
+	,cost_micros/1000000 cost
 	,impressions,
-	,clicks,
+	,clicks
 	,_sdc_sequence
 	,first_value(_sdc_sequence) OVER (PARTITION BY campaignid, day ORDER BY _sdc_sequence DESC) lv
 	FROM `{{ target.project }}.{{account}}.CAMPAIGN_PERFORMANCE_REPORT`
