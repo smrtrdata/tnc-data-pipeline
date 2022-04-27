@@ -54,10 +54,10 @@ sum(inline_link_clicks)/sum(reach) ctr
 FROM fb_ads_insights
 ##where lv = _sdc_sequence
 GROUP BY 
-account_name account,
+account,
 date_start date,
 campaign_id,
-campaign_name campaign,
+campaign,
 adset_id,
 adset_name,
 ad_id,
