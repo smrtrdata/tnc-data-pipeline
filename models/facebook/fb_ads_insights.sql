@@ -42,7 +42,7 @@ avg(cpm) cpm,
 sum(reach) reach,
 sum(impressions) impressions,
 sum(inline_link_clicks) clicks,
-sum(spend)/sum(inline_link_click) cpc,
+sum(spend)/sum(inline_link_clicks) cpc,
 sum(inline_link_clicks)/sum(reach) ctr
 
 FROM fb_ads_insights
