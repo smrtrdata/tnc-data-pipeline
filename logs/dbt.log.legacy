@@ -23979,3 +23979,1676 @@ limit 500
 2022-04-27 22:48:05.242412 (Thread-471): handling status request
 2022-04-27 22:48:05.242795 (Thread-471): 22:48:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb07600e790>]}
 2022-04-27 22:48:05.244176 (Thread-471): sending response (<Response 37183 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:08.787165 (Thread-472): 22:48:08  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-04-27 22:48:08.787503 (Thread-472): 22:48:08  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0762923a0>]}
+2022-04-27 22:48:08.992559 (Thread-472): 22:48:08  Parsing macros/get_column_values.sql
+2022-04-27 22:48:08.997450 (Thread-472): 22:48:08  Parsing macros/adapters.sql
+2022-04-27 22:48:09.022192 (Thread-472): 22:48:09  Parsing macros/etc.sql
+2022-04-27 22:48:09.024252 (Thread-472): 22:48:09  Parsing macros/catalog.sql
+2022-04-27 22:48:09.030527 (Thread-472): 22:48:09  Parsing macros/materializations/table.sql
+2022-04-27 22:48:09.034606 (Thread-472): 22:48:09  Parsing macros/materializations/seed.sql
+2022-04-27 22:48:09.043979 (Thread-472): 22:48:09  Parsing macros/materializations/incremental.sql
+2022-04-27 22:48:09.059852 (Thread-472): 22:48:09  Parsing macros/materializations/copy.sql
+2022-04-27 22:48:09.062915 (Thread-472): 22:48:09  Parsing macros/materializations/snapshot.sql
+2022-04-27 22:48:09.064736 (Thread-472): 22:48:09  Parsing macros/materializations/view.sql
+2022-04-27 22:48:09.067731 (Thread-472): 22:48:09  Parsing macros/adapters/metadata.sql
+2022-04-27 22:48:09.076101 (Thread-472): 22:48:09  Parsing macros/adapters/columns.sql
+2022-04-27 22:48:09.087532 (Thread-472): 22:48:09  Parsing macros/adapters/freshness.sql
+2022-04-27 22:48:09.090947 (Thread-472): 22:48:09  Parsing macros/adapters/persist_docs.sql
+2022-04-27 22:48:09.096427 (Thread-472): 22:48:09  Parsing macros/adapters/relation.sql
+2022-04-27 22:48:09.107119 (Thread-472): 22:48:09  Parsing macros/adapters/schema.sql
+2022-04-27 22:48:09.109665 (Thread-472): 22:48:09  Parsing macros/adapters/indexes.sql
+2022-04-27 22:48:09.112513 (Thread-472): 22:48:09  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-04-27 22:48:09.115126 (Thread-472): 22:48:09  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-04-27 22:48:09.116643 (Thread-472): 22:48:09  Parsing macros/get_custom_name/get_custom_database.sql
+2022-04-27 22:48:09.118334 (Thread-472): 22:48:09  Parsing macros/etc/datetime.sql
+2022-04-27 22:48:09.127308 (Thread-472): 22:48:09  Parsing macros/etc/statement.sql
+2022-04-27 22:48:09.131859 (Thread-472): 22:48:09  Parsing macros/generic_test_sql/unique.sql
+2022-04-27 22:48:09.132639 (Thread-472): 22:48:09  Parsing macros/generic_test_sql/not_null.sql
+2022-04-27 22:48:09.133267 (Thread-472): 22:48:09  Parsing macros/generic_test_sql/accepted_values.sql
+2022-04-27 22:48:09.134802 (Thread-472): 22:48:09  Parsing macros/generic_test_sql/relationships.sql
+2022-04-27 22:48:09.135760 (Thread-472): 22:48:09  Parsing macros/materializations/configs.sql
+2022-04-27 22:48:09.138346 (Thread-472): 22:48:09  Parsing macros/materializations/hooks.sql
+2022-04-27 22:48:09.142696 (Thread-472): 22:48:09  Parsing macros/materializations/models/table/table.sql
+2022-04-27 22:48:09.151058 (Thread-472): 22:48:09  Parsing macros/materializations/models/table/create_table_as.sql
+2022-04-27 22:48:09.154284 (Thread-472): 22:48:09  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-04-27 22:48:09.156930 (Thread-472): 22:48:09  Parsing macros/materializations/models/view/helpers.sql
+2022-04-27 22:48:09.158301 (Thread-472): 22:48:09  Parsing macros/materializations/models/view/create_view_as.sql
+2022-04-27 22:48:09.160638 (Thread-472): 22:48:09  Parsing macros/materializations/models/view/view.sql
+2022-04-27 22:48:09.168245 (Thread-472): 22:48:09  Parsing macros/materializations/models/incremental/incremental.sql
+2022-04-27 22:48:09.178420 (Thread-472): 22:48:09  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-04-27 22:48:09.194472 (Thread-472): 22:48:09  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-04-27 22:48:09.196060 (Thread-472): 22:48:09  Parsing macros/materializations/models/incremental/merge.sql
+2022-04-27 22:48:09.207327 (Thread-472): 22:48:09  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-04-27 22:48:09.211796 (Thread-472): 22:48:09  Parsing macros/materializations/seeds/helpers.sql
+2022-04-27 22:48:09.228327 (Thread-472): 22:48:09  Parsing macros/materializations/seeds/seed.sql
+2022-04-27 22:48:09.234310 (Thread-472): 22:48:09  Parsing macros/materializations/tests/helpers.sql
+2022-04-27 22:48:09.236202 (Thread-472): 22:48:09  Parsing macros/materializations/tests/test.sql
+2022-04-27 22:48:09.240679 (Thread-472): 22:48:09  Parsing macros/materializations/tests/where_subquery.sql
+2022-04-27 22:48:09.242542 (Thread-472): 22:48:09  Parsing macros/materializations/snapshots/helpers.sql
+2022-04-27 22:48:09.254544 (Thread-472): 22:48:09  Parsing macros/materializations/snapshots/strategies.sql
+2022-04-27 22:48:09.271581 (Thread-472): 22:48:09  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-04-27 22:48:09.273458 (Thread-472): 22:48:09  Parsing macros/materializations/snapshots/snapshot.sql
+2022-04-27 22:48:09.285164 (Thread-472): 22:48:09  Parsing tests/generic/builtin.sql
+2022-04-27 22:48:09.289188 (Thread-472): 22:48:09  Parsing macros/sql/pivot.sql
+2022-04-27 22:48:09.293860 (Thread-472): 22:48:09  Parsing macros/sql/star.sql
+2022-04-27 22:48:09.298431 (Thread-472): 22:48:09  Parsing macros/sql/surrogate_key.sql
+2022-04-27 22:48:09.302155 (Thread-472): 22:48:09  Parsing macros/sql/get_query_results_as_dict.sql
+2022-04-27 22:48:09.304673 (Thread-472): 22:48:09  Parsing macros/sql/date_spine.sql
+2022-04-27 22:48:09.309882 (Thread-472): 22:48:09  Parsing macros/sql/get_column_values.sql
+2022-04-27 22:48:09.315786 (Thread-473): handling status request
+2022-04-27 22:48:09.316316 (Thread-472): 22:48:09  Parsing macros/sql/groupby.sql
+2022-04-27 22:48:09.317107 (Thread-474): handling status request
+2022-04-27 22:48:09.317390 (Thread-473): 22:48:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb07620c220>]}
+2022-04-27 22:48:09.318907 (Thread-472): 22:48:09  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-04-27 22:48:09.319271 (Thread-474): 22:48:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb07620c5b0>]}
+2022-04-27 22:48:09.319902 (Thread-473): sending response (<Response 185 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:09.326335 (Thread-472): 22:48:09  Parsing macros/sql/nullcheck_table.sql
+2022-04-27 22:48:09.326775 (Thread-474): sending response (<Response 185 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:09.329056 (Thread-472): 22:48:09  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-04-27 22:48:09.332378 (Thread-472): 22:48:09  Parsing macros/sql/get_relations_by_pattern.sql
+2022-04-27 22:48:09.336423 (Thread-472): 22:48:09  Parsing macros/sql/get_relations_by_prefix.sql
+2022-04-27 22:48:09.340064 (Thread-472): 22:48:09  Parsing macros/sql/safe_add.sql
+2022-04-27 22:48:09.341816 (Thread-472): 22:48:09  Parsing macros/sql/haversine_distance.sql
+2022-04-27 22:48:09.347626 (Thread-472): 22:48:09  Parsing macros/sql/unpivot.sql
+2022-04-27 22:48:09.355188 (Thread-472): 22:48:09  Parsing macros/sql/generate_series.sql
+2022-04-27 22:48:09.359454 (Thread-472): 22:48:09  Parsing macros/sql/nullcheck.sql
+2022-04-27 22:48:09.361082 (Thread-472): 22:48:09  Parsing macros/sql/union.sql
+2022-04-27 22:48:09.369091 (Thread-472): 22:48:09  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-04-27 22:48:09.395128 (Thread-472): 22:48:09  Parsing macros/jinja_helpers/pretty_time.sql
+2022-04-27 22:48:09.396495 (Thread-472): 22:48:09  Parsing macros/jinja_helpers/slugify.sql
+2022-04-27 22:48:09.397719 (Thread-472): 22:48:09  Parsing macros/jinja_helpers/log_info.sql
+2022-04-27 22:48:09.398841 (Thread-472): 22:48:09  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-04-27 22:48:09.399965 (Thread-472): 22:48:09  Parsing macros/web/get_url_parameter.sql
+2022-04-27 22:48:09.401495 (Thread-472): 22:48:09  Parsing macros/web/get_url_path.sql
+2022-04-27 22:48:09.404036 (Thread-472): 22:48:09  Parsing macros/web/get_url_host.sql
+2022-04-27 22:48:09.411152 (Thread-472): 22:48:09  Parsing macros/schema_tests/expression_is_true.sql
+2022-04-27 22:48:09.412954 (Thread-472): 22:48:09  Parsing macros/schema_tests/not_constant.sql
+2022-04-27 22:48:09.414268 (Thread-472): 22:48:09  Parsing macros/schema_tests/sequential_values.sql
+2022-04-27 22:48:09.417029 (Thread-472): 22:48:09  Parsing macros/schema_tests/not_null_proportion.sql
+2022-04-27 22:48:09.424373 (Thread-472): 22:48:09  Parsing macros/schema_tests/at_least_one.sql
+2022-04-27 22:48:09.431894 (Thread-472): 22:48:09  Parsing macros/schema_tests/equality.sql
+2022-04-27 22:48:09.435494 (Thread-472): 22:48:09  Parsing macros/schema_tests/test_not_null_where.sql
+2022-04-27 22:48:09.441173 (Thread-472): 22:48:09  Parsing macros/schema_tests/equal_rowcount.sql
+2022-04-27 22:48:09.450428 (Thread-472): 22:48:09  Parsing macros/schema_tests/not_accepted_values.sql
+2022-04-27 22:48:09.452529 (Thread-472): 22:48:09  Parsing macros/schema_tests/test_unique_where.sql
+2022-04-27 22:48:09.453995 (Thread-472): 22:48:09  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-04-27 22:48:09.462472 (Thread-472): 22:48:09  Parsing macros/schema_tests/relationships_where.sql
+2022-04-27 22:48:09.464613 (Thread-472): 22:48:09  Parsing macros/schema_tests/accepted_range.sql
+2022-04-27 22:48:09.467018 (Thread-472): 22:48:09  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-04-27 22:48:09.468690 (Thread-472): 22:48:09  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-04-27 22:48:09.471615 (Thread-472): 22:48:09  Parsing macros/schema_tests/recency.sql
+2022-04-27 22:48:09.473500 (Thread-472): 22:48:09  Parsing macros/schema_tests/cardinality_equality.sql
+2022-04-27 22:48:09.475475 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/split_part.sql
+2022-04-27 22:48:09.477257 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/length.sql
+2022-04-27 22:48:09.478562 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-04-27 22:48:09.482065 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/right.sql
+2022-04-27 22:48:09.484263 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/hash.sql
+2022-04-27 22:48:09.485669 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/replace.sql
+2022-04-27 22:48:09.486910 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-04-27 22:48:09.488358 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/concat.sql
+2022-04-27 22:48:09.489433 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/_is_relation.sql
+2022-04-27 22:48:09.490658 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/identifier.sql
+2022-04-27 22:48:09.492480 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/datediff.sql
+2022-04-27 22:48:09.501747 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/dateadd.sql
+2022-04-27 22:48:09.504494 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/datatypes.sql
+2022-04-27 22:48:09.510384 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/position.sql
+2022-04-27 22:48:09.511930 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/literal.sql
+2022-04-27 22:48:09.512878 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-04-27 22:48:09.514779 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/width_bucket.sql
+2022-04-27 22:48:09.519779 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/date_trunc.sql
+2022-04-27 22:48:09.521269 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/except.sql
+2022-04-27 22:48:09.522410 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/safe_cast.sql
+2022-04-27 22:48:09.524753 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/last_day.sql
+2022-04-27 22:48:09.528179 (Thread-472): 22:48:09  Parsing macros/cross_db_utils/intersect.sql
+2022-04-27 22:48:09.851101 (Thread-472): 22:48:09  1603: static parser failed on adwords/google_ads_campaigns.sql
+2022-04-27 22:48:09.856716 (Thread-472): 22:48:09  1602: parser fallback to jinja rendering on adwords/google_ads_campaigns.sql
+2022-04-27 22:48:09.857831 (Thread-472): 22:48:09  1603: static parser failed on facebook/fb_ads_insights.sql
+2022-04-27 22:48:09.862803 (Thread-472): 22:48:09  1602: parser fallback to jinja rendering on facebook/fb_ads_insights.sql
+2022-04-27 22:48:09.863787 (Thread-472): 22:48:09  1699: static parser successfully parsed facebook/fb_ads_campaigns.sql
+2022-04-27 22:48:09.865666 (Thread-472): 22:48:09  1603: static parser failed on admin/conversion_goals_proc.sql
+2022-04-27 22:48:09.868695 (Thread-472): 22:48:09  1602: parser fallback to jinja rendering on admin/conversion_goals_proc.sql
+2022-04-27 22:48:09.869689 (Thread-472): 22:48:09  1603: static parser failed on admin/accounts_proc.sql
+2022-04-27 22:48:09.872586 (Thread-472): 22:48:09  1602: parser fallback to jinja rendering on admin/accounts_proc.sql
+2022-04-27 22:48:09.873761 (Thread-472): 22:48:09  1699: static parser successfully parsed core/advertising_union_all.sql
+2022-04-27 22:48:09.949524 (Thread-472): 22:48:09  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075eb40d0>]}
+2022-04-27 22:48:10.614429 (Thread-475): handling status request
+2022-04-27 22:48:10.614798 (Thread-475): 22:48:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075e7bf70>]}
+2022-04-27 22:48:10.616155 (Thread-475): sending response (<Response 37183 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:10.639288 (Thread-476): handling status request
+2022-04-27 22:48:10.639536 (Thread-476): 22:48:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075eb45b0>]}
+2022-04-27 22:48:10.640655 (Thread-476): sending response (<Response 37183 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:14.011082 (Thread-477): handling status request
+2022-04-27 22:48:14.011454 (Thread-477): 22:48:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075eb4730>]}
+2022-04-27 22:48:14.012794 (Thread-477): sending response (<Response 37183 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:14.266515 (Thread-478): handling status request
+2022-04-27 22:48:14.266881 (Thread-478): 22:48:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075eb4e20>]}
+2022-04-27 22:48:14.268295 (Thread-478): sending response (<Response 37183 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:14.273494 (Thread-479): handling cli_args request
+2022-04-27 22:48:14.273798 (Thread-479): 22:48:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075e9b8e0>]}
+2022-04-27 22:48:16.434620 (Thread-479): sending response (<Response 138 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:16.502753 (MainThread): 22:48:16  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-04-27 22:48:16.503203 (MainThread): 22:48:16  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86aac0e2e0>]}
+2022-04-27 22:48:16.656670 (Thread-480): handling poll request
+2022-04-27 22:48:16.657174 (Thread-480): 22:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0762b2490>]}
+2022-04-27 22:48:16.658042 (Thread-480): sending response (<Response 1075 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:16.672726 (MainThread): 22:48:16  Parsing macros/get_column_values.sql
+2022-04-27 22:48:16.677690 (MainThread): 22:48:16  Parsing macros/adapters.sql
+2022-04-27 22:48:16.699762 (MainThread): 22:48:16  Parsing macros/etc.sql
+2022-04-27 22:48:16.701519 (MainThread): 22:48:16  Parsing macros/catalog.sql
+2022-04-27 22:48:16.707182 (MainThread): 22:48:16  Parsing macros/materializations/table.sql
+2022-04-27 22:48:16.710954 (MainThread): 22:48:16  Parsing macros/materializations/seed.sql
+2022-04-27 22:48:16.713308 (MainThread): 22:48:16  Parsing macros/materializations/incremental.sql
+2022-04-27 22:48:16.727992 (MainThread): 22:48:16  Parsing macros/materializations/copy.sql
+2022-04-27 22:48:16.730460 (MainThread): 22:48:16  Parsing macros/materializations/snapshot.sql
+2022-04-27 22:48:16.732118 (MainThread): 22:48:16  Parsing macros/materializations/view.sql
+2022-04-27 22:48:16.734540 (MainThread): 22:48:16  Parsing macros/adapters/metadata.sql
+2022-04-27 22:48:16.741423 (MainThread): 22:48:16  Parsing macros/adapters/columns.sql
+2022-04-27 22:48:16.751135 (MainThread): 22:48:16  Parsing macros/adapters/freshness.sql
+2022-04-27 22:48:16.753973 (MainThread): 22:48:16  Parsing macros/adapters/persist_docs.sql
+2022-04-27 22:48:16.758240 (MainThread): 22:48:16  Parsing macros/adapters/relation.sql
+2022-04-27 22:48:16.767663 (MainThread): 22:48:16  Parsing macros/adapters/schema.sql
+2022-04-27 22:48:16.769711 (MainThread): 22:48:16  Parsing macros/adapters/indexes.sql
+2022-04-27 22:48:16.772346 (MainThread): 22:48:16  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-04-27 22:48:16.774681 (MainThread): 22:48:16  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-04-27 22:48:16.776071 (MainThread): 22:48:16  Parsing macros/get_custom_name/get_custom_database.sql
+2022-04-27 22:48:16.777870 (MainThread): 22:48:16  Parsing macros/etc/datetime.sql
+2022-04-27 22:48:16.786683 (MainThread): 22:48:16  Parsing macros/etc/statement.sql
+2022-04-27 22:48:16.791091 (MainThread): 22:48:16  Parsing macros/generic_test_sql/unique.sql
+2022-04-27 22:48:16.791753 (MainThread): 22:48:16  Parsing macros/generic_test_sql/not_null.sql
+2022-04-27 22:48:16.792257 (MainThread): 22:48:16  Parsing macros/generic_test_sql/accepted_values.sql
+2022-04-27 22:48:16.793659 (MainThread): 22:48:16  Parsing macros/generic_test_sql/relationships.sql
+2022-04-27 22:48:16.794477 (MainThread): 22:48:16  Parsing macros/materializations/configs.sql
+2022-04-27 22:48:16.796658 (MainThread): 22:48:16  Parsing macros/materializations/hooks.sql
+2022-04-27 22:48:16.800387 (MainThread): 22:48:16  Parsing macros/materializations/models/table/table.sql
+2022-04-27 22:48:16.807650 (MainThread): 22:48:16  Parsing macros/materializations/models/table/create_table_as.sql
+2022-04-27 22:48:16.810463 (MainThread): 22:48:16  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-04-27 22:48:16.813027 (MainThread): 22:48:16  Parsing macros/materializations/models/view/helpers.sql
+2022-04-27 22:48:16.814292 (MainThread): 22:48:16  Parsing macros/materializations/models/view/create_view_as.sql
+2022-04-27 22:48:16.816458 (MainThread): 22:48:16  Parsing macros/materializations/models/view/view.sql
+2022-04-27 22:48:16.823428 (MainThread): 22:48:16  Parsing macros/materializations/models/incremental/incremental.sql
+2022-04-27 22:48:16.833122 (MainThread): 22:48:16  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-04-27 22:48:16.849224 (MainThread): 22:48:16  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-04-27 22:48:16.850687 (MainThread): 22:48:16  Parsing macros/materializations/models/incremental/merge.sql
+2022-04-27 22:48:16.861558 (MainThread): 22:48:16  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-04-27 22:48:16.865850 (MainThread): 22:48:16  Parsing macros/materializations/seeds/helpers.sql
+2022-04-27 22:48:16.881633 (MainThread): 22:48:16  Parsing macros/materializations/seeds/seed.sql
+2022-04-27 22:48:16.887384 (MainThread): 22:48:16  Parsing macros/materializations/tests/helpers.sql
+2022-04-27 22:48:16.889034 (MainThread): 22:48:16  Parsing macros/materializations/tests/test.sql
+2022-04-27 22:48:16.893281 (MainThread): 22:48:16  Parsing macros/materializations/tests/where_subquery.sql
+2022-04-27 22:48:16.895018 (MainThread): 22:48:16  Parsing macros/materializations/snapshots/helpers.sql
+2022-04-27 22:48:16.905847 (MainThread): 22:48:16  Parsing macros/materializations/snapshots/strategies.sql
+2022-04-27 22:48:16.922020 (MainThread): 22:48:16  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-04-27 22:48:16.923562 (MainThread): 22:48:16  Parsing macros/materializations/snapshots/snapshot.sql
+2022-04-27 22:48:16.934752 (MainThread): 22:48:16  Parsing tests/generic/builtin.sql
+2022-04-27 22:48:16.937698 (MainThread): 22:48:16  Parsing macros/sql/pivot.sql
+2022-04-27 22:48:16.941522 (MainThread): 22:48:16  Parsing macros/sql/star.sql
+2022-04-27 22:48:16.945312 (MainThread): 22:48:16  Parsing macros/sql/surrogate_key.sql
+2022-04-27 22:48:16.948657 (MainThread): 22:48:16  Parsing macros/sql/get_query_results_as_dict.sql
+2022-04-27 22:48:16.950851 (MainThread): 22:48:16  Parsing macros/sql/date_spine.sql
+2022-04-27 22:48:16.955322 (MainThread): 22:48:16  Parsing macros/sql/get_column_values.sql
+2022-04-27 22:48:16.960305 (MainThread): 22:48:16  Parsing macros/sql/groupby.sql
+2022-04-27 22:48:16.961593 (MainThread): 22:48:16  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-04-27 22:48:16.967611 (MainThread): 22:48:16  Parsing macros/sql/nullcheck_table.sql
+2022-04-27 22:48:16.969126 (MainThread): 22:48:16  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-04-27 22:48:16.970701 (MainThread): 22:48:16  Parsing macros/sql/get_relations_by_pattern.sql
+2022-04-27 22:48:16.973988 (MainThread): 22:48:16  Parsing macros/sql/get_relations_by_prefix.sql
+2022-04-27 22:48:16.977169 (MainThread): 22:48:16  Parsing macros/sql/safe_add.sql
+2022-04-27 22:48:16.978800 (MainThread): 22:48:16  Parsing macros/sql/haversine_distance.sql
+2022-04-27 22:48:16.984507 (MainThread): 22:48:16  Parsing macros/sql/unpivot.sql
+2022-04-27 22:48:16.991952 (MainThread): 22:48:16  Parsing macros/sql/generate_series.sql
+2022-04-27 22:48:16.996074 (MainThread): 22:48:16  Parsing macros/sql/nullcheck.sql
+2022-04-27 22:48:16.997643 (MainThread): 22:48:16  Parsing macros/sql/union.sql
+2022-04-27 22:48:17.005609 (MainThread): 22:48:17  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-04-27 22:48:17.029222 (MainThread): 22:48:17  Parsing macros/jinja_helpers/pretty_time.sql
+2022-04-27 22:48:17.030426 (MainThread): 22:48:17  Parsing macros/jinja_helpers/slugify.sql
+2022-04-27 22:48:17.031552 (MainThread): 22:48:17  Parsing macros/jinja_helpers/log_info.sql
+2022-04-27 22:48:17.032609 (MainThread): 22:48:17  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-04-27 22:48:17.033671 (MainThread): 22:48:17  Parsing macros/web/get_url_parameter.sql
+2022-04-27 22:48:17.035243 (MainThread): 22:48:17  Parsing macros/web/get_url_path.sql
+2022-04-27 22:48:17.037656 (MainThread): 22:48:17  Parsing macros/web/get_url_host.sql
+2022-04-27 22:48:17.039472 (MainThread): 22:48:17  Parsing macros/schema_tests/expression_is_true.sql
+2022-04-27 22:48:17.041251 (MainThread): 22:48:17  Parsing macros/schema_tests/not_constant.sql
+2022-04-27 22:48:17.042442 (MainThread): 22:48:17  Parsing macros/schema_tests/sequential_values.sql
+2022-04-27 22:48:17.045134 (MainThread): 22:48:17  Parsing macros/schema_tests/not_null_proportion.sql
+2022-04-27 22:48:17.047227 (MainThread): 22:48:17  Parsing macros/schema_tests/at_least_one.sql
+2022-04-27 22:48:17.048423 (MainThread): 22:48:17  Parsing macros/schema_tests/equality.sql
+2022-04-27 22:48:17.051933 (MainThread): 22:48:17  Parsing macros/schema_tests/test_not_null_where.sql
+2022-04-27 22:48:17.053276 (MainThread): 22:48:17  Parsing macros/schema_tests/equal_rowcount.sql
+2022-04-27 22:48:17.054847 (MainThread): 22:48:17  Parsing macros/schema_tests/not_accepted_values.sql
+2022-04-27 22:48:17.056918 (MainThread): 22:48:17  Parsing macros/schema_tests/test_unique_where.sql
+2022-04-27 22:48:17.058278 (MainThread): 22:48:17  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-04-27 22:48:17.066786 (MainThread): 22:48:17  Parsing macros/schema_tests/relationships_where.sql
+2022-04-27 22:48:17.068844 (MainThread): 22:48:17  Parsing macros/schema_tests/accepted_range.sql
+2022-04-27 22:48:17.071235 (MainThread): 22:48:17  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-04-27 22:48:17.072805 (MainThread): 22:48:17  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-04-27 22:48:17.075561 (MainThread): 22:48:17  Parsing macros/schema_tests/recency.sql
+2022-04-27 22:48:17.077198 (MainThread): 22:48:17  Parsing macros/schema_tests/cardinality_equality.sql
+2022-04-27 22:48:17.079101 (MainThread): 22:48:17  Parsing macros/cross_db_utils/split_part.sql
+2022-04-27 22:48:17.080879 (MainThread): 22:48:17  Parsing macros/cross_db_utils/length.sql
+2022-04-27 22:48:17.082131 (MainThread): 22:48:17  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-04-27 22:48:17.085478 (MainThread): 22:48:17  Parsing macros/cross_db_utils/right.sql
+2022-04-27 22:48:17.087746 (MainThread): 22:48:17  Parsing macros/cross_db_utils/hash.sql
+2022-04-27 22:48:17.089067 (MainThread): 22:48:17  Parsing macros/cross_db_utils/replace.sql
+2022-04-27 22:48:17.090267 (MainThread): 22:48:17  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-04-27 22:48:17.091720 (MainThread): 22:48:17  Parsing macros/cross_db_utils/concat.sql
+2022-04-27 22:48:17.092663 (MainThread): 22:48:17  Parsing macros/cross_db_utils/_is_relation.sql
+2022-04-27 22:48:17.093723 (MainThread): 22:48:17  Parsing macros/cross_db_utils/identifier.sql
+2022-04-27 22:48:17.095455 (MainThread): 22:48:17  Parsing macros/cross_db_utils/datediff.sql
+2022-04-27 22:48:17.104756 (MainThread): 22:48:17  Parsing macros/cross_db_utils/dateadd.sql
+2022-04-27 22:48:17.107540 (MainThread): 22:48:17  Parsing macros/cross_db_utils/datatypes.sql
+2022-04-27 22:48:17.113201 (MainThread): 22:48:17  Parsing macros/cross_db_utils/position.sql
+2022-04-27 22:48:17.114680 (MainThread): 22:48:17  Parsing macros/cross_db_utils/literal.sql
+2022-04-27 22:48:17.115576 (MainThread): 22:48:17  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-04-27 22:48:17.117445 (MainThread): 22:48:17  Parsing macros/cross_db_utils/width_bucket.sql
+2022-04-27 22:48:17.122408 (MainThread): 22:48:17  Parsing macros/cross_db_utils/date_trunc.sql
+2022-04-27 22:48:17.123806 (MainThread): 22:48:17  Parsing macros/cross_db_utils/except.sql
+2022-04-27 22:48:17.124806 (MainThread): 22:48:17  Parsing macros/cross_db_utils/safe_cast.sql
+2022-04-27 22:48:17.126765 (MainThread): 22:48:17  Parsing macros/cross_db_utils/last_day.sql
+2022-04-27 22:48:17.130108 (MainThread): 22:48:17  Parsing macros/cross_db_utils/intersect.sql
+2022-04-27 22:48:17.458020 (MainThread): 22:48:17  1603: static parser failed on adwords/google_ads_campaigns.sql
+2022-04-27 22:48:17.480885 (MainThread): 22:48:17  1602: parser fallback to jinja rendering on adwords/google_ads_campaigns.sql
+2022-04-27 22:48:17.482007 (MainThread): 22:48:17  1603: static parser failed on facebook/fb_ads_insights.sql
+2022-04-27 22:48:17.526658 (MainThread): 22:48:17  1602: parser fallback to jinja rendering on facebook/fb_ads_insights.sql
+2022-04-27 22:48:17.528653 (MainThread): 22:48:17  1699: static parser successfully parsed facebook/fb_ads_campaigns.sql
+2022-04-27 22:48:17.530704 (MainThread): 22:48:17  1603: static parser failed on admin/conversion_goals_proc.sql
+2022-04-27 22:48:17.533765 (MainThread): 22:48:17  1602: parser fallback to jinja rendering on admin/conversion_goals_proc.sql
+2022-04-27 22:48:17.534979 (MainThread): 22:48:17  1603: static parser failed on admin/accounts_proc.sql
+2022-04-27 22:48:17.537632 (MainThread): 22:48:17  1602: parser fallback to jinja rendering on admin/accounts_proc.sql
+2022-04-27 22:48:17.538697 (MainThread): 22:48:17  1699: static parser successfully parsed core/advertising_union_all.sql
+2022-04-27 22:48:17.613820 (MainThread): 22:48:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86aac01430>]}
+2022-04-27 22:48:17.641268 (MainThread): 22:48:17  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86aab76a60>]}
+2022-04-27 22:48:17.641568 (MainThread): 22:48:17  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 376 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-04-27 22:48:17.642861 (MainThread): 22:48:17  
+2022-04-27 22:48:17.643186 (MainThread): 22:48:17  Acquiring new bigquery connection "master"
+2022-04-27 22:48:17.644234 (ThreadPoolExecutor-0_0): 22:48:17  Acquiring new bigquery connection "list_tnc-data-pipeline-347720"
+2022-04-27 22:48:17.644389 (ThreadPoolExecutor-0_0): 22:48:17  Opening a new connection, currently in state init
+2022-04-27 22:48:17.873885 (ThreadPoolExecutor-1_0): 22:48:17  Acquiring new bigquery connection "list_tnc-data-pipeline-347720_development"
+2022-04-27 22:48:17.874061 (ThreadPoolExecutor-1_0): 22:48:17  Opening a new connection, currently in state closed
+2022-04-27 22:48:17.889497 (Thread-481): handling poll request
+2022-04-27 22:48:17.889831 (Thread-481): 22:48:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075eb45b0>]}
+2022-04-27 22:48:17.891390 (Thread-481): sending response (<Response 39399 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:18.055197 (MainThread): 22:48:18  Concurrency: 4 threads (target='default')
+2022-04-27 22:48:18.055369 (MainThread): 22:48:18  
+2022-04-27 22:48:18.058056 (Thread-1): 22:48:18  Began running node model.tnc_data_pipeline.accounts_proc
+2022-04-27 22:48:18.058375 (Thread-1): 22:48:18  1 of 6 START table model development.accounts_proc.............................. [RUN]
+2022-04-27 22:48:18.058641 (Thread-1): 22:48:18  Acquiring new bigquery connection "model.tnc_data_pipeline.accounts_proc"
+2022-04-27 22:48:18.058739 (Thread-1): 22:48:18  Began compiling node model.tnc_data_pipeline.accounts_proc
+2022-04-27 22:48:18.058833 (Thread-1): 22:48:18  Compiling model.tnc_data_pipeline.accounts_proc
+2022-04-27 22:48:18.060871 (Thread-2): 22:48:18  Began running node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-27 22:48:18.061098 (Thread-2): 22:48:18  2 of 6 START table model development.conversion_goals_proc...................... [RUN]
+2022-04-27 22:48:18.061370 (Thread-2): 22:48:18  Acquiring new bigquery connection "model.tnc_data_pipeline.conversion_goals_proc"
+2022-04-27 22:48:18.061457 (Thread-2): 22:48:18  Began compiling node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-27 22:48:18.061541 (Thread-2): 22:48:18  Compiling model.tnc_data_pipeline.conversion_goals_proc
+2022-04-27 22:48:18.064040 (Thread-2): 22:48:18  Writing injected SQL for node "model.tnc_data_pipeline.conversion_goals_proc"
+2022-04-27 22:48:18.066598 (Thread-1): 22:48:18  Writing injected SQL for node "model.tnc_data_pipeline.accounts_proc"
+2022-04-27 22:48:18.078609 (Thread-2): 22:48:18  finished collecting timing info
+2022-04-27 22:48:18.078759 (Thread-2): 22:48:18  Began executing node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-27 22:48:18.083935 (Thread-1): 22:48:18  finished collecting timing info
+2022-04-27 22:48:18.084069 (Thread-1): 22:48:18  Began executing node model.tnc_data_pipeline.accounts_proc
+2022-04-27 22:48:18.102306 (Thread-2): 22:48:18  Opening a new connection, currently in state init
+2022-04-27 22:48:18.105487 (Thread-1): 22:48:18  Opening a new connection, currently in state closed
+2022-04-27 22:48:18.276504 (Thread-1): 22:48:18  Writing runtime SQL for node "model.tnc_data_pipeline.accounts_proc"
+2022-04-27 22:48:18.278106 (Thread-2): 22:48:18  Writing runtime SQL for node "model.tnc_data_pipeline.conversion_goals_proc"
+2022-04-27 22:48:18.290296 (Thread-1): 22:48:18  On model.tnc_data_pipeline.accounts_proc: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.accounts_proc"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+  
+  
+  OPTIONS()
+  as (
+    select
+site,
+bigquery_name,
+account,
+platform
+from  (
+ 
+	select  
+	site,
+	bigquery_name,
+	account,
+	platform,
+	time_of_entry,
+	first_value(time_of_entry) over (partition by site order by time_of_entry desc) lv
+	from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.accounts`
+) 
+
+where lv = time_of_entry
+  );
+  
+2022-04-27 22:48:18.292384 (Thread-2): 22:48:18  On model.tnc_data_pipeline.conversion_goals_proc: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.conversion_goals_proc"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`conversion_goals_proc`
+  
+  
+  OPTIONS()
+  as (
+    select distinct
+site,
+bigquery_name,
+platform,
+goal_name,
+account,
+goal_type,
+time_of_entry
+from  ( 
+
+	select  
+	site,
+	bigquery_name,
+	platform,
+	goal_name,
+	goal_type,
+	account,
+	time_of_entry,
+	first_value(time_of_entry) over (partition by platform, account, goal_name order by time_of_entry desc) lv
+	from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.conversion_goals` 
+
+) 
+where lv = time_of_entry
+and date(time_of_entry) = (select date(max(time_of_entry)) from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.conversion_goals`)
+  );
+  
+2022-04-27 22:48:19.116790 (Thread-482): handling poll request
+2022-04-27 22:48:19.117175 (Thread-482): 22:48:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075db4400>]}
+2022-04-27 22:48:19.117955 (Thread-482): sending response (<Response 11297 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:20.177196 (Thread-1): 22:48:20  finished collecting timing info
+2022-04-27 22:48:20.177654 (Thread-1): 22:48:20  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86a8145fa0>]}
+2022-04-27 22:48:20.178001 (Thread-1): 22:48:20  1 of 6 OK created table model development.accounts_proc......................... [CREATE TABLE (2.0 rows, 219.0 Bytes processed) in 2.12s]
+2022-04-27 22:48:20.178121 (Thread-1): 22:48:20  Finished running node model.tnc_data_pipeline.accounts_proc
+2022-04-27 22:48:20.178949 (Thread-4): 22:48:20  Began running node model.tnc_data_pipeline.fb_ads_insights
+2022-04-27 22:48:20.179251 (Thread-4): 22:48:20  3 of 6 START table model development.fb_ads_insights............................ [RUN]
+2022-04-27 22:48:20.179527 (Thread-4): 22:48:20  Acquiring new bigquery connection "model.tnc_data_pipeline.fb_ads_insights"
+2022-04-27 22:48:20.179620 (Thread-4): 22:48:20  Began compiling node model.tnc_data_pipeline.fb_ads_insights
+2022-04-27 22:48:20.179709 (Thread-4): 22:48:20  Compiling model.tnc_data_pipeline.fb_ads_insights
+2022-04-27 22:48:20.184107 (Thread-3): 22:48:20  Began running node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-27 22:48:20.184324 (Thread-3): 22:48:20  4 of 6 START table model development.google_ads_campaigns....................... [RUN]
+2022-04-27 22:48:20.184593 (Thread-3): 22:48:20  Acquiring new bigquery connection "model.tnc_data_pipeline.google_ads_campaigns"
+2022-04-27 22:48:20.184681 (Thread-3): 22:48:20  Began compiling node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-27 22:48:20.184765 (Thread-3): 22:48:20  Compiling model.tnc_data_pipeline.google_ads_campaigns
+2022-04-27 22:48:20.189458 (Thread-4): 22:48:20  Opening a new connection, currently in state init
+2022-04-27 22:48:20.189825 (Thread-3): 22:48:20  Opening a new connection, currently in state init
+2022-04-27 22:48:20.194232 (Thread-4): 22:48:20  On model.tnc_data_pipeline.fb_ads_insights: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.fb_ads_insights"} */
+
+
+        select
+            account as value
+
+        from `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+        where account is not null
+        and account != ''
+
+        
+        ##where 1 = 1
+        and platform = 'FB Ads'
+        
+        
+        
+
+        
+
+        
+        group by 1
+        order by count(*) desc
+        
+        
+        
+        limit 50
+        
+2022-04-27 22:48:20.195078 (Thread-3): 22:48:20  On model.tnc_data_pipeline.google_ads_campaigns: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.google_ads_campaigns"} */
+
+
+        select
+            account as value
+
+        from `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+        where account is not null
+        and account != ''
+
+        
+        ##where 1 = 1
+        and platform = 'Google Ads'
+        
+        
+        
+
+        
+
+        
+        group by 1
+        order by count(*) desc
+        
+        
+        
+        limit 50
+        
+2022-04-27 22:48:20.338101 (Thread-483): handling poll request
+2022-04-27 22:48:20.338494 (Thread-483): 22:48:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075db4be0>]}
+2022-04-27 22:48:20.339227 (Thread-483): sending response (<Response 9146 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:20.735831 (Thread-2): 22:48:20  finished collecting timing info
+2022-04-27 22:48:20.736304 (Thread-2): 22:48:20  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86a81308e0>]}
+2022-04-27 22:48:20.736807 (Thread-2): 22:48:20  2 of 6 OK created table model development.conversion_goals_proc................. [CREATE TABLE (0.0 rows, 0 processed) in 2.68s]
+2022-04-27 22:48:20.736926 (Thread-2): 22:48:20  Finished running node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-27 22:48:21.136289 (Thread-4): 22:48:21  Writing injected SQL for node "model.tnc_data_pipeline.fb_ads_insights"
+2022-04-27 22:48:21.150013 (Thread-4): 22:48:21  finished collecting timing info
+2022-04-27 22:48:21.150192 (Thread-4): 22:48:21  Began executing node model.tnc_data_pipeline.fb_ads_insights
+2022-04-27 22:48:21.184376 (Thread-3): 22:48:21  Writing injected SQL for node "model.tnc_data_pipeline.google_ads_campaigns"
+2022-04-27 22:48:21.197847 (Thread-3): 22:48:21  finished collecting timing info
+2022-04-27 22:48:21.198001 (Thread-3): 22:48:21  Began executing node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-27 22:48:21.267072 (Thread-4): 22:48:21  Writing runtime SQL for node "model.tnc_data_pipeline.fb_ads_insights"
+2022-04-27 22:48:21.280879 (Thread-4): 22:48:21  On model.tnc_data_pipeline.fb_ads_insights: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.fb_ads_insights"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`fb_ads_insights`
+  
+  
+  OPTIONS()
+  as (
+    
+
+
+
+WITH fb_ads_insights as (
+
+	    
+		   	SELECT 
+		   	account_name
+		   	,'Paid' as channel
+		   	,'Facebook Ads' as platform
+		   	,"null" as campaign_advertising_channel_type
+			,date_start
+			,cast(campaign_id as INT64) campaign_id
+			,campaign_name
+			,adset_id
+			,adset_name
+			,ad_id
+			,ad_name
+			,spend
+			,inline_link_click_ctr
+			,impressions
+			,inline_link_clicks
+			##_sdc_sequence,
+			##first_value(_sdc_sequence) OVER (PARTITION BY date_start, ad_id, campaign_id ORDER BY _sdc_sequence DESC) lv
+			FROM `tnc-data-pipeline-347720.fb_thenursecoaches.ads_insights`
+		    
+	   
+
+)
+
+SELECT
+account_name account
+,date_start date
+,channel
+,platform
+,campaign_advertising_channel_type
+,campaign_id
+,campaign_name campaign
+,adset_id
+,adset_name
+,ad_id
+,ad_name
+,sum(spend) cost
+,sum(impressions) impressions
+,sum(inline_link_clicks) clicks
+FROM fb_ads_insights
+
+##where lv = _sdc_sequence
+GROUP BY 
+account
+,date
+,campaign_id
+,campaign
+,adset_id
+,adset_name
+,ad_id
+,ad_name
+,channel
+,platform
+,campaign_advertising_channel_type
+
+
+  );
+  
+2022-04-27 22:48:21.306678 (Thread-3): 22:48:21  Writing runtime SQL for node "model.tnc_data_pipeline.google_ads_campaigns"
+2022-04-27 22:48:21.320633 (Thread-3): 22:48:21  On model.tnc_data_pipeline.google_ads_campaigns: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.google_ads_campaigns"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`google_ads_campaigns`
+  
+  
+  OPTIONS()
+  as (
+    
+
+
+
+
+
+SELECT
+date
+,account
+,campaign_id
+,campaign_name campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,sum(cost) cost
+,sum(impressions) impressions
+,sum(clicks) clicks
+FROM
+( 
+
+	SELECT  
+	"google_ads_thenursecoaches" as account
+	,'Paid' as channel
+	,'Adwords' as platform
+	,date
+	,campaign_id
+	,campaign_name
+	,campaign_advertising_channel_type
+	,cost_micros/1000000 cost
+	,impressions
+	,clicks
+	,_sdc_sequence
+	,first_value(_sdc_sequence) OVER (PARTITION BY campaign_id, date ORDER BY _sdc_sequence DESC) lv
+	FROM `tnc-data-pipeline-347720.google_ads_thenursecoaches.campaign_performance_report`
+
+
+
+)
+WHERE lv = _sdc_sequence
+GROUP BY date, campaign_id, channel, platform, account, campaign_name, campaign_advertising_channel_type
+ORDER BY DATE DESC 
+
+
+  );
+  
+2022-04-27 22:48:21.581974 (Thread-484): handling poll request
+2022-04-27 22:48:21.582306 (Thread-484): 22:48:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075df62e0>]}
+2022-04-27 22:48:21.582949 (Thread-484): sending response (<Response 8651 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:22.820203 (Thread-485): handling poll request
+2022-04-27 22:48:22.820583 (Thread-485): 22:48:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075df64c0>]}
+2022-04-27 22:48:22.821058 (Thread-485): sending response (<Response 286 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:23.422224 (Thread-4): 22:48:23  finished collecting timing info
+2022-04-27 22:48:23.422674 (Thread-4): 22:48:23  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86a811cf10>]}
+2022-04-27 22:48:23.423026 (Thread-4): 22:48:23  3 of 6 OK created table model development.fb_ads_insights....................... [CREATE TABLE (15.8k rows, 4.3 MB processed) in 3.24s]
+2022-04-27 22:48:23.423424 (Thread-4): 22:48:23  Finished running node model.tnc_data_pipeline.fb_ads_insights
+2022-04-27 22:48:23.424184 (Thread-1): 22:48:23  Began running node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-27 22:48:23.424440 (Thread-1): 22:48:23  5 of 6 START table model development.fb_ads_campaigns........................... [RUN]
+2022-04-27 22:48:23.424691 (Thread-1): 22:48:23  Acquiring new bigquery connection "model.tnc_data_pipeline.fb_ads_campaigns"
+2022-04-27 22:48:23.424783 (Thread-1): 22:48:23  Began compiling node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-27 22:48:23.424870 (Thread-1): 22:48:23  Compiling model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-27 22:48:23.427457 (Thread-1): 22:48:23  Writing injected SQL for node "model.tnc_data_pipeline.fb_ads_campaigns"
+2022-04-27 22:48:23.443165 (Thread-1): 22:48:23  finished collecting timing info
+2022-04-27 22:48:23.443307 (Thread-1): 22:48:23  Began executing node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-27 22:48:23.445094 (Thread-1): 22:48:23  Opening a new connection, currently in state closed
+2022-04-27 22:48:23.470492 (Thread-3): 22:48:23  finished collecting timing info
+2022-04-27 22:48:23.470844 (Thread-3): 22:48:23  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86a810dbe0>]}
+2022-04-27 22:48:23.471160 (Thread-3): 22:48:23  4 of 6 OK created table model development.google_ads_campaigns.................. [CREATE TABLE (5.8k rows, 571.3 KB processed) in 3.29s]
+2022-04-27 22:48:23.471273 (Thread-3): 22:48:23  Finished running node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-27 22:48:23.667717 (Thread-1): 22:48:23  Writing runtime SQL for node "model.tnc_data_pipeline.fb_ads_campaigns"
+2022-04-27 22:48:23.681809 (Thread-1): 22:48:23  On model.tnc_data_pipeline.fb_ads_campaigns: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.fb_ads_campaigns"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`fb_ads_campaigns`
+  
+  
+  OPTIONS()
+  as (
+    SELECT
+account
+,date
+,campaign_id
+,campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,sum(cost) cost
+,sum(impressions) impressions
+,sum(clicks) clicks
+FROM `tnc-data-pipeline-347720`.`development`.`fb_ads_insights`
+
+##where lv = _sdc_sequence
+GROUP BY 
+account
+,date
+,campaign_id
+,campaign
+,channel
+,platform
+,campaign_advertising_channel_type
+  );
+  
+2022-04-27 22:48:24.050043 (Thread-486): handling poll request
+2022-04-27 22:48:24.050417 (Thread-486): 22:48:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075df6d00>]}
+2022-04-27 22:48:24.051142 (Thread-486): sending response (<Response 9188 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:25.287824 (Thread-487): handling poll request
+2022-04-27 22:48:25.288201 (Thread-487): 22:48:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075df6ee0>]}
+2022-04-27 22:48:25.288689 (Thread-487): sending response (<Response 287 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:25.906472 (Thread-1): 22:48:25  finished collecting timing info
+2022-04-27 22:48:25.906948 (Thread-1): 22:48:25  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86a811ab50>]}
+2022-04-27 22:48:25.907319 (Thread-1): 22:48:25  5 of 6 OK created table model development.fb_ads_campaigns...................... [CREATE TABLE (1.3k rows, 2.2 MB processed) in 2.48s]
+2022-04-27 22:48:25.907435 (Thread-1): 22:48:25  Finished running node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-27 22:48:25.908474 (Thread-4): 22:48:25  Began running node model.tnc_data_pipeline.advertising_union_all
+2022-04-27 22:48:25.908749 (Thread-4): 22:48:25  6 of 6 START table model development.advertising_union_all...................... [RUN]
+2022-04-27 22:48:25.909005 (Thread-4): 22:48:25  Acquiring new bigquery connection "model.tnc_data_pipeline.advertising_union_all"
+2022-04-27 22:48:25.909098 (Thread-4): 22:48:25  Began compiling node model.tnc_data_pipeline.advertising_union_all
+2022-04-27 22:48:25.909186 (Thread-4): 22:48:25  Compiling model.tnc_data_pipeline.advertising_union_all
+2022-04-27 22:48:25.912320 (Thread-4): 22:48:25  Writing injected SQL for node "model.tnc_data_pipeline.advertising_union_all"
+2022-04-27 22:48:25.928021 (Thread-4): 22:48:25  finished collecting timing info
+2022-04-27 22:48:25.928171 (Thread-4): 22:48:25  Began executing node model.tnc_data_pipeline.advertising_union_all
+2022-04-27 22:48:25.930202 (Thread-4): 22:48:25  Opening a new connection, currently in state closed
+2022-04-27 22:48:26.070773 (Thread-4): 22:48:26  Writing runtime SQL for node "model.tnc_data_pipeline.advertising_union_all"
+2022-04-27 22:48:26.086083 (Thread-4): 22:48:26  On model.tnc_data_pipeline.advertising_union_all: /* {"app": "dbt", "dbt_version": "1.0.5", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.advertising_union_all"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`advertising_union_all`
+  
+  
+  OPTIONS()
+  as (
+    SELECT
+account
+,date
+,campaign_id
+,campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,cost
+,impressions
+,clicks
+,cost as fb_cost
+,impressions as fb_impressions
+,clicks as fb_clicks
+,0 as google_ads_cost
+,0 as google_ads_impressions
+,0 as google_ads_clicks
+FROM `tnc-data-pipeline-347720`.`development`.`fb_ads_campaigns`
+
+
+UNION ALL
+
+
+
+
+SELECT
+account
+,date
+,campaign_id
+,campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,cost
+,impressions
+,clicks
+,0 as fb_cost
+,0 as fb_impressions
+,0 as fb_clicks
+,cost as google_ads_cost
+,impressions as google_ads_impressions
+,clicks as google_ads_clicks
+
+FROM `tnc-data-pipeline-347720`.`development`.`google_ads_campaigns`
+  );
+  
+2022-04-27 22:48:26.515002 (Thread-488): handling poll request
+2022-04-27 22:48:26.515382 (Thread-488): 22:48:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075dbe610>]}
+2022-04-27 22:48:26.516048 (Thread-488): sending response (<Response 7828 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:27.778935 (Thread-489): handling poll request
+2022-04-27 22:48:27.779327 (Thread-489): 22:48:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075dbe7f0>]}
+2022-04-27 22:48:27.779814 (Thread-489): sending response (<Response 287 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:28.164507 (Thread-4): 22:48:28  finished collecting timing info
+2022-04-27 22:48:28.164963 (Thread-4): 22:48:28  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '734c60ed-23a0-45c6-a3d2-caee59f4d4e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f86a8078be0>]}
+2022-04-27 22:48:28.165455 (Thread-4): 22:48:28  6 of 6 OK created table model development.advertising_union_all................. [CREATE TABLE (7.1k rows, 951.2 KB processed) in 2.26s]
+2022-04-27 22:48:28.165609 (Thread-4): 22:48:28  Finished running node model.tnc_data_pipeline.advertising_union_all
+2022-04-27 22:48:28.167256 (MainThread): 22:48:28  Acquiring new bigquery connection "master"
+2022-04-27 22:48:28.167579 (MainThread): 22:48:28  
+2022-04-27 22:48:28.167695 (MainThread): 22:48:28  Finished running 6 table models in 10.52s.
+2022-04-27 22:48:28.167780 (MainThread): 22:48:28  Connection 'master' was properly closed.
+2022-04-27 22:48:28.167848 (MainThread): 22:48:28  Connection 'model.tnc_data_pipeline.fb_ads_campaigns' was properly closed.
+2022-04-27 22:48:28.167913 (MainThread): 22:48:28  Connection 'model.tnc_data_pipeline.conversion_goals_proc' was properly closed.
+2022-04-27 22:48:28.167976 (MainThread): 22:48:28  Connection 'model.tnc_data_pipeline.advertising_union_all' was properly closed.
+2022-04-27 22:48:28.168036 (MainThread): 22:48:28  Connection 'model.tnc_data_pipeline.google_ads_campaigns' was properly closed.
+2022-04-27 22:48:28.235587 (MainThread): 22:48:28  
+2022-04-27 22:48:28.235841 (MainThread): 22:48:28  Completed successfully
+2022-04-27 22:48:28.235979 (MainThread): 22:48:28  
+2022-04-27 22:48:28.236092 (MainThread): 22:48:28  Done. PASS=6 WARN=0 ERROR=0 SKIP=0 TOTAL=6
+2022-04-27 22:48:29.005548 (Thread-490): handling poll request
+2022-04-27 22:48:29.005971 (Thread-490): 22:48:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075d16490>]}
+2022-04-27 22:48:29.007605 (Thread-490): sending response (<Response 28102 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:29.679069 (Thread-491): handling status request
+2022-04-27 22:48:29.679457 (Thread-491): 22:48:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075df6c40>]}
+2022-04-27 22:48:29.681166 (Thread-491): sending response (<Response 37183 bytes [200 OK]>) to 10.0.12.113
+2022-04-27 22:48:29.716331 (Thread-492): handling status request
+2022-04-27 22:48:29.716670 (Thread-492): 22:48:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c60dcfff-f37c-4f7e-81eb-2590eb6d6fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb075df68b0>]}
+2022-04-27 22:48:29.718023 (Thread-492): sending response (<Response 37183 bytes [200 OK]>) to 10.0.12.113
+2022-04-29 16:35:51.927935 (MainThread): Running with dbt=1.0.6
+2022-04-29 16:35:52.091200 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-04-29 16:35:52.094780 (MainThread): Tracking: tracking
+2022-04-29 16:35:52.116874 (MainThread): 16:35:52  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ecc5f13a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb83a1340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb83a13d0>]}
+2022-04-29 16:35:52.117244 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2022-04-29 16:35:52.117500 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-04-29 16:35:52.117636 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-04-29 16:35:52.157463 (Thread-12): 16:35:52  Unable to do partial parsing because of a dbt version mismatch. Saved manifest version: 1.0.5. Current version: 1.0.6.
+2022-04-29 16:35:52.157818 (Thread-12): 16:35:52  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb83f3c10>]}
+2022-04-29 16:35:52.661396 (Thread-12): 16:35:52  Parsing macros/get_column_values.sql
+2022-04-29 16:35:52.666488 (Thread-12): 16:35:52  Parsing macros/adapters.sql
+2022-04-29 16:35:52.688831 (Thread-12): 16:35:52  Parsing macros/etc.sql
+2022-04-29 16:35:52.690677 (Thread-12): 16:35:52  Parsing macros/catalog.sql
+2022-04-29 16:35:52.696300 (Thread-12): 16:35:52  Parsing macros/materializations/table.sql
+2022-04-29 16:35:52.700097 (Thread-12): 16:35:52  Parsing macros/materializations/seed.sql
+2022-04-29 16:35:52.702650 (Thread-12): 16:35:52  Parsing macros/materializations/incremental.sql
+2022-04-29 16:35:52.717076 (Thread-12): 16:35:52  Parsing macros/materializations/copy.sql
+2022-04-29 16:35:52.719620 (Thread-12): 16:35:52  Parsing macros/materializations/snapshot.sql
+2022-04-29 16:35:52.721258 (Thread-12): 16:35:52  Parsing macros/materializations/view.sql
+2022-04-29 16:35:52.723689 (Thread-12): 16:35:52  Parsing macros/adapters/metadata.sql
+2022-04-29 16:35:52.730453 (Thread-12): 16:35:52  Parsing macros/adapters/columns.sql
+2022-04-29 16:35:52.739878 (Thread-12): 16:35:52  Parsing macros/adapters/freshness.sql
+2022-04-29 16:35:52.742689 (Thread-12): 16:35:52  Parsing macros/adapters/persist_docs.sql
+2022-04-29 16:35:52.746881 (Thread-12): 16:35:52  Parsing macros/adapters/relation.sql
+2022-04-29 16:35:52.756151 (Thread-12): 16:35:52  Parsing macros/adapters/schema.sql
+2022-04-29 16:35:52.758265 (Thread-12): 16:35:52  Parsing macros/adapters/indexes.sql
+2022-04-29 16:35:52.760843 (Thread-12): 16:35:52  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-04-29 16:35:52.763200 (Thread-12): 16:35:52  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-04-29 16:35:52.764652 (Thread-12): 16:35:52  Parsing macros/get_custom_name/get_custom_database.sql
+2022-04-29 16:35:52.766171 (Thread-12): 16:35:52  Parsing macros/etc/datetime.sql
+2022-04-29 16:35:52.774219 (Thread-12): 16:35:52  Parsing macros/etc/statement.sql
+2022-04-29 16:35:52.778470 (Thread-12): 16:35:52  Parsing macros/generic_test_sql/unique.sql
+2022-04-29 16:35:52.779170 (Thread-12): 16:35:52  Parsing macros/generic_test_sql/not_null.sql
+2022-04-29 16:35:52.779719 (Thread-12): 16:35:52  Parsing macros/generic_test_sql/accepted_values.sql
+2022-04-29 16:35:52.781066 (Thread-12): 16:35:52  Parsing macros/generic_test_sql/relationships.sql
+2022-04-29 16:35:52.781926 (Thread-12): 16:35:52  Parsing macros/materializations/configs.sql
+2022-04-29 16:35:52.784138 (Thread-12): 16:35:52  Parsing macros/materializations/hooks.sql
+2022-04-29 16:35:52.787852 (Thread-12): 16:35:52  Parsing macros/materializations/models/table/table.sql
+2022-04-29 16:35:52.795061 (Thread-12): 16:35:52  Parsing macros/materializations/models/table/create_table_as.sql
+2022-04-29 16:35:52.797819 (Thread-12): 16:35:52  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-04-29 16:35:52.800363 (Thread-12): 16:35:52  Parsing macros/materializations/models/view/helpers.sql
+2022-04-29 16:35:52.801650 (Thread-12): 16:35:52  Parsing macros/materializations/models/view/create_view_as.sql
+2022-04-29 16:35:52.803859 (Thread-12): 16:35:52  Parsing macros/materializations/models/view/view.sql
+2022-04-29 16:35:52.810701 (Thread-12): 16:35:52  Parsing macros/materializations/models/incremental/incremental.sql
+2022-04-29 16:35:52.820242 (Thread-12): 16:35:52  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-04-29 16:35:52.835033 (Thread-12): 16:35:52  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-04-29 16:35:52.836466 (Thread-12): 16:35:52  Parsing macros/materializations/models/incremental/merge.sql
+2022-04-29 16:35:52.847136 (Thread-12): 16:35:52  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-04-29 16:35:52.851398 (Thread-12): 16:35:52  Parsing macros/materializations/seeds/helpers.sql
+2022-04-29 16:35:52.867037 (Thread-12): 16:35:52  Parsing macros/materializations/seeds/seed.sql
+2022-04-29 16:35:52.872818 (Thread-12): 16:35:52  Parsing macros/materializations/tests/helpers.sql
+2022-04-29 16:35:52.874527 (Thread-12): 16:35:52  Parsing macros/materializations/tests/test.sql
+2022-04-29 16:35:52.878744 (Thread-12): 16:35:52  Parsing macros/materializations/tests/where_subquery.sql
+2022-04-29 16:35:52.880485 (Thread-12): 16:35:52  Parsing macros/materializations/snapshots/helpers.sql
+2022-04-29 16:35:52.891732 (Thread-12): 16:35:52  Parsing macros/materializations/snapshots/strategies.sql
+2022-04-29 16:35:52.907633 (Thread-12): 16:35:52  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-04-29 16:35:52.909247 (Thread-12): 16:35:52  Parsing macros/materializations/snapshots/snapshot.sql
+2022-04-29 16:35:52.920283 (Thread-12): 16:35:52  Parsing tests/generic/builtin.sql
+2022-04-29 16:35:52.923173 (Thread-12): 16:35:52  Parsing macros/sql/pivot.sql
+2022-04-29 16:35:52.927037 (Thread-12): 16:35:52  Parsing macros/sql/star.sql
+2022-04-29 16:35:52.930853 (Thread-12): 16:35:52  Parsing macros/sql/surrogate_key.sql
+2022-04-29 16:35:52.934143 (Thread-12): 16:35:52  Parsing macros/sql/get_query_results_as_dict.sql
+2022-04-29 16:35:52.936344 (Thread-12): 16:35:52  Parsing macros/sql/date_spine.sql
+2022-04-29 16:35:52.941070 (Thread-12): 16:35:52  Parsing macros/sql/get_column_values.sql
+2022-04-29 16:35:52.946533 (Thread-12): 16:35:52  Parsing macros/sql/groupby.sql
+2022-04-29 16:35:52.947840 (Thread-12): 16:35:52  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-04-29 16:35:52.953713 (Thread-12): 16:35:52  Parsing macros/sql/nullcheck_table.sql
+2022-04-29 16:35:52.955280 (Thread-12): 16:35:52  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-04-29 16:35:52.956899 (Thread-12): 16:35:52  Parsing macros/sql/get_relations_by_pattern.sql
+2022-04-29 16:35:52.960110 (Thread-12): 16:35:52  Parsing macros/sql/get_relations_by_prefix.sql
+2022-04-29 16:35:52.963376 (Thread-12): 16:35:52  Parsing macros/sql/safe_add.sql
+2022-04-29 16:35:52.964969 (Thread-12): 16:35:52  Parsing macros/sql/haversine_distance.sql
+2022-04-29 16:35:52.970642 (Thread-12): 16:35:52  Parsing macros/sql/unpivot.sql
+2022-04-29 16:35:52.978004 (Thread-12): 16:35:52  Parsing macros/sql/generate_series.sql
+2022-04-29 16:35:52.982096 (Thread-12): 16:35:52  Parsing macros/sql/nullcheck.sql
+2022-04-29 16:35:52.983688 (Thread-12): 16:35:52  Parsing macros/sql/union.sql
+2022-04-29 16:35:52.991503 (Thread-12): 16:35:52  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-04-29 16:35:53.014877 (Thread-12): 16:35:53  Parsing macros/jinja_helpers/pretty_time.sql
+2022-04-29 16:35:53.016081 (Thread-12): 16:35:53  Parsing macros/jinja_helpers/slugify.sql
+2022-04-29 16:35:53.017254 (Thread-12): 16:35:53  Parsing macros/jinja_helpers/log_info.sql
+2022-04-29 16:35:53.018366 (Thread-12): 16:35:53  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-04-29 16:35:53.019454 (Thread-12): 16:35:53  Parsing macros/web/get_url_parameter.sql
+2022-04-29 16:35:53.020997 (Thread-12): 16:35:53  Parsing macros/web/get_url_path.sql
+2022-04-29 16:35:53.023449 (Thread-12): 16:35:53  Parsing macros/web/get_url_host.sql
+2022-04-29 16:35:53.025335 (Thread-12): 16:35:53  Parsing macros/schema_tests/expression_is_true.sql
+2022-04-29 16:35:53.027090 (Thread-12): 16:35:53  Parsing macros/schema_tests/not_constant.sql
+2022-04-29 16:35:53.028300 (Thread-12): 16:35:53  Parsing macros/schema_tests/sequential_values.sql
+2022-04-29 16:35:53.030972 (Thread-12): 16:35:53  Parsing macros/schema_tests/not_null_proportion.sql
+2022-04-29 16:35:53.033078 (Thread-12): 16:35:53  Parsing macros/schema_tests/at_least_one.sql
+2022-04-29 16:35:53.034346 (Thread-12): 16:35:53  Parsing macros/schema_tests/equality.sql
+2022-04-29 16:35:53.037842 (Thread-12): 16:35:53  Parsing macros/schema_tests/test_not_null_where.sql
+2022-04-29 16:35:53.039308 (Thread-12): 16:35:53  Parsing macros/schema_tests/equal_rowcount.sql
+2022-04-29 16:35:53.040934 (Thread-12): 16:35:53  Parsing macros/schema_tests/not_accepted_values.sql
+2022-04-29 16:35:53.042972 (Thread-12): 16:35:53  Parsing macros/schema_tests/test_unique_where.sql
+2022-04-29 16:35:53.044346 (Thread-12): 16:35:53  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-04-29 16:35:53.052816 (Thread-12): 16:35:53  Parsing macros/schema_tests/relationships_where.sql
+2022-04-29 16:35:53.054927 (Thread-12): 16:35:53  Parsing macros/schema_tests/accepted_range.sql
+2022-04-29 16:35:53.057302 (Thread-12): 16:35:53  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-04-29 16:35:53.058935 (Thread-12): 16:35:53  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-04-29 16:35:53.061657 (Thread-12): 16:35:53  Parsing macros/schema_tests/recency.sql
+2022-04-29 16:35:53.063366 (Thread-12): 16:35:53  Parsing macros/schema_tests/cardinality_equality.sql
+2022-04-29 16:35:53.065293 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/split_part.sql
+2022-04-29 16:35:53.067066 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/length.sql
+2022-04-29 16:35:53.068322 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-04-29 16:35:53.071758 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/right.sql
+2022-04-29 16:35:53.073955 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/hash.sql
+2022-04-29 16:35:53.075431 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/replace.sql
+2022-04-29 16:35:53.076682 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-04-29 16:35:53.078073 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/concat.sql
+2022-04-29 16:35:53.079093 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/_is_relation.sql
+2022-04-29 16:35:53.080189 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/identifier.sql
+2022-04-29 16:35:53.081979 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/datediff.sql
+2022-04-29 16:35:53.091278 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/dateadd.sql
+2022-04-29 16:35:53.094017 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/datatypes.sql
+2022-04-29 16:35:53.099766 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/position.sql
+2022-04-29 16:35:53.101667 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/literal.sql
+2022-04-29 16:35:53.102613 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-04-29 16:35:53.104431 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/width_bucket.sql
+2022-04-29 16:35:53.109442 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/date_trunc.sql
+2022-04-29 16:35:53.110939 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/except.sql
+2022-04-29 16:35:53.112008 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/safe_cast.sql
+2022-04-29 16:35:53.113998 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/last_day.sql
+2022-04-29 16:35:53.117431 (Thread-12): 16:35:53  Parsing macros/cross_db_utils/intersect.sql
+2022-04-29 16:35:53.450242 (Thread-12): 16:35:53  1603: static parser failed on adwords/google_ads_campaigns.sql
+2022-04-29 16:35:53.475006 (Thread-12): 16:35:53  1602: parser fallback to jinja rendering on adwords/google_ads_campaigns.sql
+2022-04-29 16:35:53.476356 (Thread-12): 16:35:53  1603: static parser failed on facebook/fb_ads_insights.sql
+2022-04-29 16:35:53.482130 (Thread-12): 16:35:53  1602: parser fallback to jinja rendering on facebook/fb_ads_insights.sql
+2022-04-29 16:35:53.484051 (Thread-12): 16:35:53  1699: static parser successfully parsed facebook/fb_ads_campaigns.sql
+2022-04-29 16:35:53.486000 (Thread-12): 16:35:53  1603: static parser failed on admin/conversion_goals_proc.sql
+2022-04-29 16:35:53.489193 (Thread-12): 16:35:53  1602: parser fallback to jinja rendering on admin/conversion_goals_proc.sql
+2022-04-29 16:35:53.501797 (Thread-12): 16:35:53  1603: static parser failed on admin/accounts_proc.sql
+2022-04-29 16:35:53.504889 (Thread-12): 16:35:53  1602: parser fallback to jinja rendering on admin/accounts_proc.sql
+2022-04-29 16:35:53.506060 (Thread-12): 16:35:53  1699: static parser successfully parsed core/advertising_union_all.sql
+2022-04-29 16:35:53.596202 (Thread-12): 16:35:53  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb822db20>]}
+2022-04-29 16:35:53.821956 (Thread-13): handling status request
+2022-04-29 16:35:53.822404 (Thread-13): 16:35:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb822da00>]}
+2022-04-29 16:35:53.824050 (Thread-13): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:35:53.835109 (Thread-14): handling status request
+2022-04-29 16:35:53.835401 (Thread-14): 16:35:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb820cdc0>]}
+2022-04-29 16:35:53.836824 (Thread-14): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:35:53.956694 (Thread-15): handling ps request
+2022-04-29 16:35:53.957124 (Thread-15): 16:35:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8235a30>]}
+2022-04-29 16:35:53.957573 (Thread-15): sending response (<Response 105 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:35:53.970052 (Thread-16): handling status request
+2022-04-29 16:35:53.970345 (Thread-16): 16:35:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb820c1c0>]}
+2022-04-29 16:35:53.971630 (Thread-16): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:35:55.263265 (Thread-17): handling status request
+2022-04-29 16:35:55.263644 (Thread-17): 16:35:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb82124f0>]}
+2022-04-29 16:35:55.265033 (Thread-17): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:01.511645 (Thread-18): handling status request
+2022-04-29 16:36:01.513463 (Thread-18): 16:36:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8231fa0>]}
+2022-04-29 16:36:01.514841 (Thread-18): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:01.813624 (Thread-19): handling cli_args request
+2022-04-29 16:36:01.814036 (Thread-19): 16:36:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8259490>]}
+2022-04-29 16:36:01.837712 (Thread-20): handling status request
+2022-04-29 16:36:01.841875 (Thread-20): 16:36:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb820cee0>]}
+2022-04-29 16:36:01.844294 (Thread-20): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:04.094512 (Thread-19): sending response (<Response 138 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:04.158679 (MainThread): 16:36:04  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-04-29 16:36:04.159092 (MainThread): 16:36:04  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa2118252e0>]}
+2022-04-29 16:36:04.320728 (Thread-21): handling poll request
+2022-04-29 16:36:04.321100 (Thread-21): 16:36:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb820cdc0>]}
+2022-04-29 16:36:04.321684 (Thread-21): sending response (<Response 1073 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:04.425635 (MainThread): 16:36:04  Parsing macros/get_column_values.sql
+2022-04-29 16:36:04.430534 (MainThread): 16:36:04  Parsing macros/adapters.sql
+2022-04-29 16:36:04.453271 (MainThread): 16:36:04  Parsing macros/etc.sql
+2022-04-29 16:36:04.455084 (MainThread): 16:36:04  Parsing macros/catalog.sql
+2022-04-29 16:36:04.460802 (MainThread): 16:36:04  Parsing macros/materializations/table.sql
+2022-04-29 16:36:04.464636 (MainThread): 16:36:04  Parsing macros/materializations/seed.sql
+2022-04-29 16:36:04.467003 (MainThread): 16:36:04  Parsing macros/materializations/incremental.sql
+2022-04-29 16:36:04.481790 (MainThread): 16:36:04  Parsing macros/materializations/copy.sql
+2022-04-29 16:36:04.484262 (MainThread): 16:36:04  Parsing macros/materializations/snapshot.sql
+2022-04-29 16:36:04.485933 (MainThread): 16:36:04  Parsing macros/materializations/view.sql
+2022-04-29 16:36:04.488356 (MainThread): 16:36:04  Parsing macros/adapters/metadata.sql
+2022-04-29 16:36:04.495340 (MainThread): 16:36:04  Parsing macros/adapters/columns.sql
+2022-04-29 16:36:04.505023 (MainThread): 16:36:04  Parsing macros/adapters/freshness.sql
+2022-04-29 16:36:04.507789 (MainThread): 16:36:04  Parsing macros/adapters/persist_docs.sql
+2022-04-29 16:36:04.512102 (MainThread): 16:36:04  Parsing macros/adapters/relation.sql
+2022-04-29 16:36:04.521724 (MainThread): 16:36:04  Parsing macros/adapters/schema.sql
+2022-04-29 16:36:04.523835 (MainThread): 16:36:04  Parsing macros/adapters/indexes.sql
+2022-04-29 16:36:04.526798 (MainThread): 16:36:04  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-04-29 16:36:04.529409 (MainThread): 16:36:04  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-04-29 16:36:04.530991 (MainThread): 16:36:04  Parsing macros/get_custom_name/get_custom_database.sql
+2022-04-29 16:36:04.532581 (MainThread): 16:36:04  Parsing macros/etc/datetime.sql
+2022-04-29 16:36:04.542306 (MainThread): 16:36:04  Parsing macros/etc/statement.sql
+2022-04-29 16:36:04.546652 (MainThread): 16:36:04  Parsing macros/generic_test_sql/unique.sql
+2022-04-29 16:36:04.547327 (MainThread): 16:36:04  Parsing macros/generic_test_sql/not_null.sql
+2022-04-29 16:36:04.547832 (MainThread): 16:36:04  Parsing macros/generic_test_sql/accepted_values.sql
+2022-04-29 16:36:04.549162 (MainThread): 16:36:04  Parsing macros/generic_test_sql/relationships.sql
+2022-04-29 16:36:04.549988 (MainThread): 16:36:04  Parsing macros/materializations/configs.sql
+2022-04-29 16:36:04.552308 (MainThread): 16:36:04  Parsing macros/materializations/hooks.sql
+2022-04-29 16:36:04.556015 (MainThread): 16:36:04  Parsing macros/materializations/models/table/table.sql
+2022-04-29 16:36:04.563762 (MainThread): 16:36:04  Parsing macros/materializations/models/table/create_table_as.sql
+2022-04-29 16:36:04.566610 (MainThread): 16:36:04  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-04-29 16:36:04.569439 (MainThread): 16:36:04  Parsing macros/materializations/models/view/helpers.sql
+2022-04-29 16:36:04.570740 (MainThread): 16:36:04  Parsing macros/materializations/models/view/create_view_as.sql
+2022-04-29 16:36:04.573142 (MainThread): 16:36:04  Parsing macros/materializations/models/view/view.sql
+2022-04-29 16:36:04.580451 (MainThread): 16:36:04  Parsing macros/materializations/models/incremental/incremental.sql
+2022-04-29 16:36:04.591474 (MainThread): 16:36:04  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-04-29 16:36:04.607601 (MainThread): 16:36:04  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-04-29 16:36:04.609173 (MainThread): 16:36:04  Parsing macros/materializations/models/incremental/merge.sql
+2022-04-29 16:36:04.620143 (MainThread): 16:36:04  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-04-29 16:36:04.624508 (MainThread): 16:36:04  Parsing macros/materializations/seeds/helpers.sql
+2022-04-29 16:36:04.640708 (MainThread): 16:36:04  Parsing macros/materializations/seeds/seed.sql
+2022-04-29 16:36:04.646594 (MainThread): 16:36:04  Parsing macros/materializations/tests/helpers.sql
+2022-04-29 16:36:04.648257 (MainThread): 16:36:04  Parsing macros/materializations/tests/test.sql
+2022-04-29 16:36:04.652766 (MainThread): 16:36:04  Parsing macros/materializations/tests/where_subquery.sql
+2022-04-29 16:36:04.654492 (MainThread): 16:36:04  Parsing macros/materializations/snapshots/helpers.sql
+2022-04-29 16:36:04.666386 (MainThread): 16:36:04  Parsing macros/materializations/snapshots/strategies.sql
+2022-04-29 16:36:04.683576 (MainThread): 16:36:04  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-04-29 16:36:04.685257 (MainThread): 16:36:04  Parsing macros/materializations/snapshots/snapshot.sql
+2022-04-29 16:36:04.696777 (MainThread): 16:36:04  Parsing tests/generic/builtin.sql
+2022-04-29 16:36:04.699783 (MainThread): 16:36:04  Parsing macros/sql/pivot.sql
+2022-04-29 16:36:04.703643 (MainThread): 16:36:04  Parsing macros/sql/star.sql
+2022-04-29 16:36:04.707684 (MainThread): 16:36:04  Parsing macros/sql/surrogate_key.sql
+2022-04-29 16:36:04.711288 (MainThread): 16:36:04  Parsing macros/sql/get_query_results_as_dict.sql
+2022-04-29 16:36:04.713538 (MainThread): 16:36:04  Parsing macros/sql/date_spine.sql
+2022-04-29 16:36:04.718733 (MainThread): 16:36:04  Parsing macros/sql/get_column_values.sql
+2022-04-29 16:36:04.724053 (MainThread): 16:36:04  Parsing macros/sql/groupby.sql
+2022-04-29 16:36:04.725591 (MainThread): 16:36:04  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-04-29 16:36:04.731692 (MainThread): 16:36:04  Parsing macros/sql/nullcheck_table.sql
+2022-04-29 16:36:04.733296 (MainThread): 16:36:04  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-04-29 16:36:04.734883 (MainThread): 16:36:04  Parsing macros/sql/get_relations_by_pattern.sql
+2022-04-29 16:36:04.738251 (MainThread): 16:36:04  Parsing macros/sql/get_relations_by_prefix.sql
+2022-04-29 16:36:04.741659 (MainThread): 16:36:04  Parsing macros/sql/safe_add.sql
+2022-04-29 16:36:04.743218 (MainThread): 16:36:04  Parsing macros/sql/haversine_distance.sql
+2022-04-29 16:36:04.749086 (MainThread): 16:36:04  Parsing macros/sql/unpivot.sql
+2022-04-29 16:36:04.756990 (MainThread): 16:36:04  Parsing macros/sql/generate_series.sql
+2022-04-29 16:36:04.761184 (MainThread): 16:36:04  Parsing macros/sql/nullcheck.sql
+2022-04-29 16:36:04.762781 (MainThread): 16:36:04  Parsing macros/sql/union.sql
+2022-04-29 16:36:04.770821 (MainThread): 16:36:04  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-04-29 16:36:04.795697 (MainThread): 16:36:04  Parsing macros/jinja_helpers/pretty_time.sql
+2022-04-29 16:36:04.796993 (MainThread): 16:36:04  Parsing macros/jinja_helpers/slugify.sql
+2022-04-29 16:36:04.798258 (MainThread): 16:36:04  Parsing macros/jinja_helpers/log_info.sql
+2022-04-29 16:36:04.799537 (MainThread): 16:36:04  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-04-29 16:36:04.800790 (MainThread): 16:36:04  Parsing macros/web/get_url_parameter.sql
+2022-04-29 16:36:04.802302 (MainThread): 16:36:04  Parsing macros/web/get_url_path.sql
+2022-04-29 16:36:04.805114 (MainThread): 16:36:04  Parsing macros/web/get_url_host.sql
+2022-04-29 16:36:04.806982 (MainThread): 16:36:04  Parsing macros/schema_tests/expression_is_true.sql
+2022-04-29 16:36:04.808870 (MainThread): 16:36:04  Parsing macros/schema_tests/not_constant.sql
+2022-04-29 16:36:04.810350 (MainThread): 16:36:04  Parsing macros/schema_tests/sequential_values.sql
+2022-04-29 16:36:04.813249 (MainThread): 16:36:04  Parsing macros/schema_tests/not_null_proportion.sql
+2022-04-29 16:36:04.815333 (MainThread): 16:36:04  Parsing macros/schema_tests/at_least_one.sql
+2022-04-29 16:36:04.816560 (MainThread): 16:36:04  Parsing macros/schema_tests/equality.sql
+2022-04-29 16:36:04.820282 (MainThread): 16:36:04  Parsing macros/schema_tests/test_not_null_where.sql
+2022-04-29 16:36:04.821694 (MainThread): 16:36:04  Parsing macros/schema_tests/equal_rowcount.sql
+2022-04-29 16:36:04.823366 (MainThread): 16:36:04  Parsing macros/schema_tests/not_accepted_values.sql
+2022-04-29 16:36:04.825433 (MainThread): 16:36:04  Parsing macros/schema_tests/test_unique_where.sql
+2022-04-29 16:36:04.826804 (MainThread): 16:36:04  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-04-29 16:36:04.835590 (MainThread): 16:36:04  Parsing macros/schema_tests/relationships_where.sql
+2022-04-29 16:36:04.837694 (MainThread): 16:36:04  Parsing macros/schema_tests/accepted_range.sql
+2022-04-29 16:36:04.840181 (MainThread): 16:36:04  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-04-29 16:36:04.841853 (MainThread): 16:36:04  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-04-29 16:36:04.844989 (MainThread): 16:36:04  Parsing macros/schema_tests/recency.sql
+2022-04-29 16:36:04.846704 (MainThread): 16:36:04  Parsing macros/schema_tests/cardinality_equality.sql
+2022-04-29 16:36:04.848762 (MainThread): 16:36:04  Parsing macros/cross_db_utils/split_part.sql
+2022-04-29 16:36:04.850932 (MainThread): 16:36:04  Parsing macros/cross_db_utils/length.sql
+2022-04-29 16:36:04.852312 (MainThread): 16:36:04  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-04-29 16:36:04.856479 (MainThread): 16:36:04  Parsing macros/cross_db_utils/right.sql
+2022-04-29 16:36:04.859344 (MainThread): 16:36:04  Parsing macros/cross_db_utils/hash.sql
+2022-04-29 16:36:04.861002 (MainThread): 16:36:04  Parsing macros/cross_db_utils/replace.sql
+2022-04-29 16:36:04.862528 (MainThread): 16:36:04  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-04-29 16:36:04.864058 (MainThread): 16:36:04  Parsing macros/cross_db_utils/concat.sql
+2022-04-29 16:36:04.865210 (MainThread): 16:36:04  Parsing macros/cross_db_utils/_is_relation.sql
+2022-04-29 16:36:04.866331 (MainThread): 16:36:04  Parsing macros/cross_db_utils/identifier.sql
+2022-04-29 16:36:04.868157 (MainThread): 16:36:04  Parsing macros/cross_db_utils/datediff.sql
+2022-04-29 16:36:04.877991 (MainThread): 16:36:04  Parsing macros/cross_db_utils/dateadd.sql
+2022-04-29 16:36:04.880888 (MainThread): 16:36:04  Parsing macros/cross_db_utils/datatypes.sql
+2022-04-29 16:36:04.886778 (MainThread): 16:36:04  Parsing macros/cross_db_utils/position.sql
+2022-04-29 16:36:04.888469 (MainThread): 16:36:04  Parsing macros/cross_db_utils/literal.sql
+2022-04-29 16:36:04.889425 (MainThread): 16:36:04  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-04-29 16:36:04.891414 (MainThread): 16:36:04  Parsing macros/cross_db_utils/width_bucket.sql
+2022-04-29 16:36:04.896900 (MainThread): 16:36:04  Parsing macros/cross_db_utils/date_trunc.sql
+2022-04-29 16:36:04.898340 (MainThread): 16:36:04  Parsing macros/cross_db_utils/except.sql
+2022-04-29 16:36:04.899383 (MainThread): 16:36:04  Parsing macros/cross_db_utils/safe_cast.sql
+2022-04-29 16:36:04.901465 (MainThread): 16:36:04  Parsing macros/cross_db_utils/last_day.sql
+2022-04-29 16:36:04.904940 (MainThread): 16:36:04  Parsing macros/cross_db_utils/intersect.sql
+2022-04-29 16:36:05.250531 (MainThread): 16:36:05  1603: static parser failed on adwords/google_ads_campaigns.sql
+2022-04-29 16:36:05.273547 (MainThread): 16:36:05  1602: parser fallback to jinja rendering on adwords/google_ads_campaigns.sql
+2022-04-29 16:36:05.274701 (MainThread): 16:36:05  1603: static parser failed on facebook/fb_ads_insights.sql
+2022-04-29 16:36:05.319996 (MainThread): 16:36:05  1602: parser fallback to jinja rendering on facebook/fb_ads_insights.sql
+2022-04-29 16:36:05.321949 (MainThread): 16:36:05  1699: static parser successfully parsed facebook/fb_ads_campaigns.sql
+2022-04-29 16:36:05.324019 (MainThread): 16:36:05  1603: static parser failed on admin/conversion_goals_proc.sql
+2022-04-29 16:36:05.327106 (MainThread): 16:36:05  1602: parser fallback to jinja rendering on admin/conversion_goals_proc.sql
+2022-04-29 16:36:05.328328 (MainThread): 16:36:05  1603: static parser failed on admin/accounts_proc.sql
+2022-04-29 16:36:05.331042 (MainThread): 16:36:05  1602: parser fallback to jinja rendering on admin/accounts_proc.sql
+2022-04-29 16:36:05.332182 (MainThread): 16:36:05  1699: static parser successfully parsed core/advertising_union_all.sql
+2022-04-29 16:36:05.410509 (MainThread): 16:36:05  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa211af24f0>]}
+2022-04-29 16:36:05.438024 (MainThread): 16:36:05  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa2119187f0>]}
+2022-04-29 16:36:05.438416 (MainThread): 16:36:05  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 376 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-04-29 16:36:05.439837 (MainThread): 16:36:05  
+2022-04-29 16:36:05.440162 (MainThread): 16:36:05  Acquiring new bigquery connection "master"
+2022-04-29 16:36:05.441333 (ThreadPoolExecutor-0_0): 16:36:05  Acquiring new bigquery connection "list_tnc-data-pipeline-347720"
+2022-04-29 16:36:05.441486 (ThreadPoolExecutor-0_0): 16:36:05  Opening a new connection, currently in state init
+2022-04-29 16:36:05.557546 (Thread-22): handling poll request
+2022-04-29 16:36:05.557935 (Thread-22): 16:36:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb81ce3a0>]}
+2022-04-29 16:36:05.559661 (Thread-22): sending response (<Response 38624 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:05.664886 (ThreadPoolExecutor-1_0): 16:36:05  Acquiring new bigquery connection "list_tnc-data-pipeline-347720_development"
+2022-04-29 16:36:05.665072 (ThreadPoolExecutor-1_0): 16:36:05  Opening a new connection, currently in state closed
+2022-04-29 16:36:05.862264 (MainThread): 16:36:05  Concurrency: 4 threads (target='default')
+2022-04-29 16:36:05.862486 (MainThread): 16:36:05  
+2022-04-29 16:36:05.865228 (Thread-1): 16:36:05  Began running node model.tnc_data_pipeline.accounts_proc
+2022-04-29 16:36:05.865536 (Thread-1): 16:36:05  1 of 6 START table model development.accounts_proc.............................. [RUN]
+2022-04-29 16:36:05.865817 (Thread-1): 16:36:05  Acquiring new bigquery connection "model.tnc_data_pipeline.accounts_proc"
+2022-04-29 16:36:05.865917 (Thread-1): 16:36:05  Began compiling node model.tnc_data_pipeline.accounts_proc
+2022-04-29 16:36:05.866010 (Thread-1): 16:36:05  Compiling model.tnc_data_pipeline.accounts_proc
+2022-04-29 16:36:05.868196 (Thread-2): 16:36:05  Began running node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-29 16:36:05.868422 (Thread-2): 16:36:05  2 of 6 START table model development.conversion_goals_proc...................... [RUN]
+2022-04-29 16:36:05.868713 (Thread-2): 16:36:05  Acquiring new bigquery connection "model.tnc_data_pipeline.conversion_goals_proc"
+2022-04-29 16:36:05.868803 (Thread-2): 16:36:05  Began compiling node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-29 16:36:05.868887 (Thread-2): 16:36:05  Compiling model.tnc_data_pipeline.conversion_goals_proc
+2022-04-29 16:36:05.871338 (Thread-2): 16:36:05  Writing injected SQL for node "model.tnc_data_pipeline.conversion_goals_proc"
+2022-04-29 16:36:05.874013 (Thread-1): 16:36:05  Writing injected SQL for node "model.tnc_data_pipeline.accounts_proc"
+2022-04-29 16:36:05.884853 (Thread-2): 16:36:05  finished collecting timing info
+2022-04-29 16:36:05.884998 (Thread-2): 16:36:05  Began executing node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-29 16:36:05.890127 (Thread-1): 16:36:05  finished collecting timing info
+2022-04-29 16:36:05.890265 (Thread-1): 16:36:05  Began executing node model.tnc_data_pipeline.accounts_proc
+2022-04-29 16:36:05.908342 (Thread-2): 16:36:05  Opening a new connection, currently in state init
+2022-04-29 16:36:05.911507 (Thread-1): 16:36:05  Opening a new connection, currently in state closed
+2022-04-29 16:36:06.102561 (Thread-2): 16:36:06  Writing runtime SQL for node "model.tnc_data_pipeline.conversion_goals_proc"
+2022-04-29 16:36:06.115698 (Thread-2): 16:36:06  On model.tnc_data_pipeline.conversion_goals_proc: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.conversion_goals_proc"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`conversion_goals_proc`
+  
+  
+  OPTIONS()
+  as (
+    select distinct
+site,
+bigquery_name,
+platform,
+goal_name,
+account,
+goal_type,
+time_of_entry
+from  ( 
+
+	select  
+	site,
+	bigquery_name,
+	platform,
+	goal_name,
+	goal_type,
+	account,
+	time_of_entry,
+	first_value(time_of_entry) over (partition by platform, account, goal_name order by time_of_entry desc) lv
+	from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.conversion_goals` 
+
+) 
+where lv = time_of_entry
+and date(time_of_entry) = (select date(max(time_of_entry)) from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.conversion_goals`)
+  );
+  
+2022-04-29 16:36:06.123983 (Thread-1): 16:36:06  Writing runtime SQL for node "model.tnc_data_pipeline.accounts_proc"
+2022-04-29 16:36:06.138393 (Thread-1): 16:36:06  On model.tnc_data_pipeline.accounts_proc: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.accounts_proc"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+  
+  
+  OPTIONS()
+  as (
+    select
+site,
+bigquery_name,
+account,
+platform
+from  (
+ 
+	select  
+	site,
+	bigquery_name,
+	account,
+	platform,
+	time_of_entry,
+	first_value(time_of_entry) over (partition by site order by time_of_entry desc) lv
+	from `tnc-data-pipeline-347720.thenursecoaches_data_pipeline.accounts`
+) 
+
+where lv = time_of_entry
+  );
+  
+2022-04-29 16:36:06.805447 (Thread-23): handling poll request
+2022-04-29 16:36:06.805825 (Thread-23): 16:36:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb81871c0>]}
+2022-04-29 16:36:06.806564 (Thread-23): sending response (<Response 11915 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:08.034404 (Thread-24): handling poll request
+2022-04-29 16:36:08.035935 (Thread-24): 16:36:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb81873a0>]}
+2022-04-29 16:36:08.036412 (Thread-24): sending response (<Response 286 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:08.468041 (Thread-1): 16:36:08  finished collecting timing info
+2022-04-29 16:36:08.468756 (Thread-1): 16:36:08  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1f0556fa0>]}
+2022-04-29 16:36:08.469413 (Thread-1): 16:36:08  1 of 6 OK created table model development.accounts_proc......................... [CREATE TABLE (2.0 rows, 219.0 Bytes processed) in 2.60s]
+2022-04-29 16:36:08.469602 (Thread-1): 16:36:08  Finished running node model.tnc_data_pipeline.accounts_proc
+2022-04-29 16:36:08.470432 (Thread-4): 16:36:08  Began running node model.tnc_data_pipeline.fb_ads_insights
+2022-04-29 16:36:08.470681 (Thread-4): 16:36:08  3 of 6 START table model development.fb_ads_insights............................ [RUN]
+2022-04-29 16:36:08.470943 (Thread-4): 16:36:08  Acquiring new bigquery connection "model.tnc_data_pipeline.fb_ads_insights"
+2022-04-29 16:36:08.471033 (Thread-4): 16:36:08  Began compiling node model.tnc_data_pipeline.fb_ads_insights
+2022-04-29 16:36:08.471123 (Thread-4): 16:36:08  Compiling model.tnc_data_pipeline.fb_ads_insights
+2022-04-29 16:36:08.475515 (Thread-3): 16:36:08  Began running node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-29 16:36:08.475731 (Thread-3): 16:36:08  4 of 6 START table model development.google_ads_campaigns....................... [RUN]
+2022-04-29 16:36:08.475992 (Thread-3): 16:36:08  Acquiring new bigquery connection "model.tnc_data_pipeline.google_ads_campaigns"
+2022-04-29 16:36:08.476076 (Thread-3): 16:36:08  Began compiling node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-29 16:36:08.476158 (Thread-3): 16:36:08  Compiling model.tnc_data_pipeline.google_ads_campaigns
+2022-04-29 16:36:08.480753 (Thread-4): 16:36:08  Opening a new connection, currently in state init
+2022-04-29 16:36:08.481034 (Thread-3): 16:36:08  Opening a new connection, currently in state init
+2022-04-29 16:36:08.486131 (Thread-3): 16:36:08  On model.tnc_data_pipeline.google_ads_campaigns: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.google_ads_campaigns"} */
+
+
+        select
+            account as value
+
+        from `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+        where account is not null
+        and account != ''
+
+        
+        ##where 1 = 1
+        and platform = 'Google Ads'
+        
+        
+        
+
+        
+
+        
+        group by 1
+        order by count(*) desc
+        
+        
+        
+        limit 50
+        
+2022-04-29 16:36:08.487090 (Thread-4): 16:36:08  On model.tnc_data_pipeline.fb_ads_insights: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.fb_ads_insights"} */
+
+
+        select
+            account as value
+
+        from `tnc-data-pipeline-347720`.`development`.`accounts_proc`
+        where account is not null
+        and account != ''
+
+        
+        ##where 1 = 1
+        and platform = 'FB Ads'
+        
+        
+        
+
+        
+
+        
+        group by 1
+        order by count(*) desc
+        
+        
+        
+        limit 50
+        
+2022-04-29 16:36:09.362763 (Thread-25): handling poll request
+2022-04-29 16:36:09.363125 (Thread-25): 16:36:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8187b80>]}
+2022-04-29 16:36:09.363802 (Thread-25): sending response (<Response 9128 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:09.490322 (Thread-2): 16:36:09  finished collecting timing info
+2022-04-29 16:36:09.490781 (Thread-2): 16:36:09  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1f0565c70>]}
+2022-04-29 16:36:09.491271 (Thread-2): 16:36:09  2 of 6 OK created table model development.conversion_goals_proc................. [CREATE TABLE (0.0 rows, 0 processed) in 3.62s]
+2022-04-29 16:36:09.491387 (Thread-2): 16:36:09  Finished running node model.tnc_data_pipeline.conversion_goals_proc
+2022-04-29 16:36:09.735192 (Thread-4): 16:36:09  Writing injected SQL for node "model.tnc_data_pipeline.fb_ads_insights"
+2022-04-29 16:36:09.747869 (Thread-4): 16:36:09  finished collecting timing info
+2022-04-29 16:36:09.748048 (Thread-4): 16:36:09  Began executing node model.tnc_data_pipeline.fb_ads_insights
+2022-04-29 16:36:09.754123 (Thread-3): 16:36:09  Writing injected SQL for node "model.tnc_data_pipeline.google_ads_campaigns"
+2022-04-29 16:36:09.766097 (Thread-3): 16:36:09  finished collecting timing info
+2022-04-29 16:36:09.766260 (Thread-3): 16:36:09  Began executing node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-29 16:36:09.885474 (Thread-3): 16:36:09  Writing runtime SQL for node "model.tnc_data_pipeline.google_ads_campaigns"
+2022-04-29 16:36:09.886626 (Thread-4): 16:36:09  Writing runtime SQL for node "model.tnc_data_pipeline.fb_ads_insights"
+2022-04-29 16:36:09.898714 (Thread-3): 16:36:09  On model.tnc_data_pipeline.google_ads_campaigns: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.google_ads_campaigns"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`google_ads_campaigns`
+  
+  
+  OPTIONS()
+  as (
+    
+
+
+
+
+
+SELECT
+date
+,account
+,campaign_id
+,campaign_name campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,sum(cost) cost
+,sum(impressions) impressions
+,sum(clicks) clicks
+FROM
+( 
+
+	SELECT  
+	"google_ads_thenursecoaches" as account
+	,'Paid' as channel
+	,'Adwords' as platform
+	,date
+	,campaign_id
+	,campaign_name
+	,campaign_advertising_channel_type
+	,cost_micros/1000000 cost
+	,impressions
+	,clicks
+	,_sdc_sequence
+	,first_value(_sdc_sequence) OVER (PARTITION BY campaign_id, date ORDER BY _sdc_sequence DESC) lv
+	FROM `tnc-data-pipeline-347720.google_ads_thenursecoaches.campaign_performance_report`
+
+
+
+)
+WHERE lv = _sdc_sequence
+GROUP BY date, campaign_id, channel, platform, account, campaign_name, campaign_advertising_channel_type
+ORDER BY DATE DESC 
+
+
+  );
+  
+2022-04-29 16:36:09.901449 (Thread-4): 16:36:09  On model.tnc_data_pipeline.fb_ads_insights: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.fb_ads_insights"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`fb_ads_insights`
+  
+  
+  OPTIONS()
+  as (
+    
+
+
+
+WITH fb_ads_insights as (
+
+	    
+		   	SELECT 
+		   	account_name
+		   	,'Paid' as channel
+		   	,'Facebook Ads' as platform
+		   	,"null" as campaign_advertising_channel_type
+			,date_start
+			,cast(campaign_id as INT64) campaign_id
+			,campaign_name
+			,adset_id
+			,adset_name
+			,ad_id
+			,ad_name
+			,spend
+			,inline_link_click_ctr
+			,impressions
+			,inline_link_clicks
+			##_sdc_sequence,
+			##first_value(_sdc_sequence) OVER (PARTITION BY date_start, ad_id, campaign_id ORDER BY _sdc_sequence DESC) lv
+			FROM `tnc-data-pipeline-347720.fb_thenursecoaches.ads_insights`
+		    
+	   
+
+)
+
+SELECT
+account_name account
+,date_start date
+,channel
+,platform
+,campaign_advertising_channel_type
+,campaign_id
+,campaign_name campaign
+,adset_id
+,adset_name
+,ad_id
+,ad_name
+,sum(spend) cost
+,sum(impressions) impressions
+,sum(inline_link_clicks) clicks
+FROM fb_ads_insights
+
+##where lv = _sdc_sequence
+GROUP BY 
+account
+,date
+,campaign_id
+,campaign
+,adset_id
+,adset_name
+,ad_id
+,ad_name
+,channel
+,platform
+,campaign_advertising_channel_type
+
+
+  );
+  
+2022-04-29 16:36:10.669109 (Thread-26): handling poll request
+2022-04-29 16:36:10.669571 (Thread-26): 16:36:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8187cd0>]}
+2022-04-29 16:36:10.670252 (Thread-26): sending response (<Response 8638 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:11.914576 (Thread-27): handling poll request
+2022-04-29 16:36:11.914971 (Thread-27): 16:36:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8187d90>]}
+2022-04-29 16:36:11.915437 (Thread-27): sending response (<Response 287 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:12.283168 (Thread-4): 16:36:12  finished collecting timing info
+2022-04-29 16:36:12.283620 (Thread-4): 16:36:12  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1f04cb700>]}
+2022-04-29 16:36:12.283950 (Thread-4): 16:36:12  3 of 6 OK created table model development.fb_ads_insights....................... [CREATE TABLE (15.9k rows, 4.3 MB processed) in 3.81s]
+2022-04-29 16:36:12.284061 (Thread-4): 16:36:12  Finished running node model.tnc_data_pipeline.fb_ads_insights
+2022-04-29 16:36:12.284913 (Thread-1): 16:36:12  Began running node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-29 16:36:12.285174 (Thread-1): 16:36:12  5 of 6 START table model development.fb_ads_campaigns........................... [RUN]
+2022-04-29 16:36:12.285427 (Thread-1): 16:36:12  Acquiring new bigquery connection "model.tnc_data_pipeline.fb_ads_campaigns"
+2022-04-29 16:36:12.285861 (Thread-1): 16:36:12  Began compiling node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-29 16:36:12.285982 (Thread-1): 16:36:12  Compiling model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-29 16:36:12.288517 (Thread-1): 16:36:12  Writing injected SQL for node "model.tnc_data_pipeline.fb_ads_campaigns"
+2022-04-29 16:36:12.301826 (Thread-1): 16:36:12  finished collecting timing info
+2022-04-29 16:36:12.301970 (Thread-1): 16:36:12  Began executing node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-29 16:36:12.303825 (Thread-1): 16:36:12  Opening a new connection, currently in state closed
+2022-04-29 16:36:12.415914 (Thread-3): 16:36:12  finished collecting timing info
+2022-04-29 16:36:12.416354 (Thread-3): 16:36:12  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa21181ecd0>]}
+2022-04-29 16:36:12.416855 (Thread-3): 16:36:12  4 of 6 OK created table model development.google_ads_campaigns.................. [CREATE TABLE (5.8k rows, 577.3 KB processed) in 3.94s]
+2022-04-29 16:36:12.416973 (Thread-3): 16:36:12  Finished running node model.tnc_data_pipeline.google_ads_campaigns
+2022-04-29 16:36:12.464243 (Thread-1): 16:36:12  Writing runtime SQL for node "model.tnc_data_pipeline.fb_ads_campaigns"
+2022-04-29 16:36:12.476435 (Thread-1): 16:36:12  On model.tnc_data_pipeline.fb_ads_campaigns: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.fb_ads_campaigns"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`fb_ads_campaigns`
+  
+  
+  OPTIONS()
+  as (
+    SELECT
+account
+,date
+,campaign_id
+,campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,sum(cost) cost
+,sum(impressions) impressions
+,sum(clicks) clicks
+FROM `tnc-data-pipeline-347720`.`development`.`fb_ads_insights`
+
+##where lv = _sdc_sequence
+GROUP BY 
+account
+,date
+,campaign_id
+,campaign
+,channel
+,platform
+,campaign_advertising_channel_type
+  );
+  
+2022-04-29 16:36:13.151412 (Thread-28): handling poll request
+2022-04-29 16:36:13.151884 (Thread-28): 16:36:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb819ecd0>]}
+2022-04-29 16:36:13.152605 (Thread-28): sending response (<Response 9170 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:14.381361 (Thread-29): handling poll request
+2022-04-29 16:36:14.381729 (Thread-29): 16:36:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb819ee80>]}
+2022-04-29 16:36:14.382242 (Thread-29): sending response (<Response 287 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:15.028383 (Thread-1): 16:36:15  finished collecting timing info
+2022-04-29 16:36:15.028903 (Thread-1): 16:36:15  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa21174ca60>]}
+2022-04-29 16:36:15.029256 (Thread-1): 16:36:15  5 of 6 OK created table model development.fb_ads_campaigns...................... [CREATE TABLE (1.3k rows, 2.2 MB processed) in 2.74s]
+2022-04-29 16:36:15.029396 (Thread-1): 16:36:15  Finished running node model.tnc_data_pipeline.fb_ads_campaigns
+2022-04-29 16:36:15.030404 (Thread-4): 16:36:15  Began running node model.tnc_data_pipeline.advertising_union_all
+2022-04-29 16:36:15.030665 (Thread-4): 16:36:15  6 of 6 START table model development.advertising_union_all...................... [RUN]
+2022-04-29 16:36:15.030921 (Thread-4): 16:36:15  Acquiring new bigquery connection "model.tnc_data_pipeline.advertising_union_all"
+2022-04-29 16:36:15.031012 (Thread-4): 16:36:15  Began compiling node model.tnc_data_pipeline.advertising_union_all
+2022-04-29 16:36:15.031100 (Thread-4): 16:36:15  Compiling model.tnc_data_pipeline.advertising_union_all
+2022-04-29 16:36:15.034211 (Thread-4): 16:36:15  Writing injected SQL for node "model.tnc_data_pipeline.advertising_union_all"
+2022-04-29 16:36:15.046436 (Thread-4): 16:36:15  finished collecting timing info
+2022-04-29 16:36:15.046581 (Thread-4): 16:36:15  Began executing node model.tnc_data_pipeline.advertising_union_all
+2022-04-29 16:36:15.048491 (Thread-4): 16:36:15  Opening a new connection, currently in state closed
+2022-04-29 16:36:15.222721 (Thread-4): 16:36:15  Writing runtime SQL for node "model.tnc_data_pipeline.advertising_union_all"
+2022-04-29 16:36:15.234656 (Thread-4): 16:36:15  On model.tnc_data_pipeline.advertising_union_all: /* {"app": "dbt", "dbt_version": "1.0.6", "profile_name": "user", "target_name": "default", "node_id": "model.tnc_data_pipeline.advertising_union_all"} */
+
+
+  create or replace table `tnc-data-pipeline-347720`.`development`.`advertising_union_all`
+  
+  
+  OPTIONS()
+  as (
+    SELECT
+account
+,date
+,campaign_id
+,campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,cost
+,impressions
+,clicks
+,cost as fb_cost
+,impressions as fb_impressions
+,clicks as fb_clicks
+,0 as google_ads_cost
+,0 as google_ads_impressions
+,0 as google_ads_clicks
+FROM `tnc-data-pipeline-347720`.`development`.`fb_ads_campaigns`
+
+
+UNION ALL
+
+
+
+
+SELECT
+account
+,date
+,campaign_id
+,campaign
+,campaign_advertising_channel_type
+,channel
+,platform
+,cost
+,impressions
+,clicks
+,0 as fb_cost
+,0 as fb_impressions
+,0 as fb_clicks
+,cost as google_ads_cost
+,impressions as google_ads_impressions
+,clicks as google_ads_clicks
+
+FROM `tnc-data-pipeline-347720`.`development`.`google_ads_campaigns`
+  );
+  
+2022-04-29 16:36:15.620615 (Thread-30): handling poll request
+2022-04-29 16:36:15.620988 (Thread-30): 16:36:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb81465b0>]}
+2022-04-29 16:36:15.621627 (Thread-30): sending response (<Response 7813 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:16.847648 (Thread-31): handling poll request
+2022-04-29 16:36:16.848014 (Thread-31): 16:36:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8146790>]}
+2022-04-29 16:36:16.848484 (Thread-31): sending response (<Response 287 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:17.158503 (Thread-4): 16:36:17  finished collecting timing info
+2022-04-29 16:36:17.158935 (Thread-4): 16:36:17  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '31c0f05f-40bc-49a2-8f5d-8822350502d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1f048bb80>]}
+2022-04-29 16:36:17.159265 (Thread-4): 16:36:17  6 of 6 OK created table model development.advertising_union_all................. [CREATE TABLE (7.1k rows, 960.3 KB processed) in 2.13s]
+2022-04-29 16:36:17.159375 (Thread-4): 16:36:17  Finished running node model.tnc_data_pipeline.advertising_union_all
+2022-04-29 16:36:17.160922 (MainThread): 16:36:17  Acquiring new bigquery connection "master"
+2022-04-29 16:36:17.161232 (MainThread): 16:36:17  
+2022-04-29 16:36:17.161330 (MainThread): 16:36:17  Finished running 6 table models in 11.72s.
+2022-04-29 16:36:17.161411 (MainThread): 16:36:17  Connection 'master' was properly closed.
+2022-04-29 16:36:17.161478 (MainThread): 16:36:17  Connection 'model.tnc_data_pipeline.fb_ads_campaigns' was properly closed.
+2022-04-29 16:36:17.161542 (MainThread): 16:36:17  Connection 'model.tnc_data_pipeline.conversion_goals_proc' was properly closed.
+2022-04-29 16:36:17.161604 (MainThread): 16:36:17  Connection 'model.tnc_data_pipeline.advertising_union_all' was properly closed.
+2022-04-29 16:36:17.161665 (MainThread): 16:36:17  Connection 'model.tnc_data_pipeline.google_ads_campaigns' was properly closed.
+2022-04-29 16:36:17.246396 (MainThread): 16:36:17  
+2022-04-29 16:36:17.246616 (MainThread): 16:36:17  Completed successfully
+2022-04-29 16:36:17.246722 (MainThread): 16:36:17  
+2022-04-29 16:36:17.246812 (MainThread): 16:36:17  Done. PASS=6 WARN=0 ERROR=0 SKIP=0 TOTAL=6
+2022-04-29 16:36:18.074957 (Thread-32): handling poll request
+2022-04-29 16:36:18.075324 (Thread-32): 16:36:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb8146430>]}
+2022-04-29 16:36:18.076715 (Thread-32): sending response (<Response 28086 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:18.968099 (Thread-33): handling status request
+2022-04-29 16:36:18.968459 (Thread-33): 16:36:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb819e100>]}
+2022-04-29 16:36:18.969920 (Thread-33): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-04-29 16:36:18.991778 (Thread-34): handling status request
+2022-04-29 16:36:18.992050 (Thread-34): 16:36:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00288a3e-973a-4491-8226-66f5705c408a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7eb81872b0>]}
+2022-04-29 16:36:18.993312 (Thread-34): sending response (<Response 37079 bytes [200 OK]>) to 10.0.15.151
+2022-05-11 16:28:22.035542 (MainThread): Running with dbt=1.0.6
+2022-05-11 16:28:22.203241 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-05-11 16:28:22.213107 (MainThread): Tracking: tracking
+2022-05-11 16:28:22.229716 (MainThread): 16:28:22  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c333a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c1b8c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c1b8820>]}
+2022-05-11 16:28:22.230167 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2022-05-11 16:28:22.230445 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-05-11 16:28:22.230583 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-05-11 16:28:22.278357 (Thread-12): 16:28:22  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-05-11 16:28:22.278826 (Thread-12): 16:28:22  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c17e790>]}
+2022-05-11 16:28:22.859604 (Thread-12): 16:28:22  Parsing macros/get_column_values.sql
+2022-05-11 16:28:22.864782 (Thread-12): 16:28:22  Parsing macros/adapters.sql
+2022-05-11 16:28:22.887877 (Thread-12): 16:28:22  Parsing macros/etc.sql
+2022-05-11 16:28:22.889807 (Thread-12): 16:28:22  Parsing macros/catalog.sql
+2022-05-11 16:28:22.895537 (Thread-12): 16:28:22  Parsing macros/materializations/table.sql
+2022-05-11 16:28:22.899350 (Thread-12): 16:28:22  Parsing macros/materializations/seed.sql
+2022-05-11 16:28:22.901781 (Thread-12): 16:28:22  Parsing macros/materializations/incremental.sql
+2022-05-11 16:28:22.916416 (Thread-12): 16:28:22  Parsing macros/materializations/copy.sql
+2022-05-11 16:28:22.919098 (Thread-12): 16:28:22  Parsing macros/materializations/snapshot.sql
+2022-05-11 16:28:22.920758 (Thread-12): 16:28:22  Parsing macros/materializations/view.sql
+2022-05-11 16:28:22.923315 (Thread-12): 16:28:22  Parsing macros/adapters/metadata.sql
+2022-05-11 16:28:22.930216 (Thread-12): 16:28:22  Parsing macros/adapters/columns.sql
+2022-05-11 16:28:22.939822 (Thread-12): 16:28:22  Parsing macros/adapters/freshness.sql
+2022-05-11 16:28:22.942675 (Thread-12): 16:28:22  Parsing macros/adapters/persist_docs.sql
+2022-05-11 16:28:22.946912 (Thread-12): 16:28:22  Parsing macros/adapters/relation.sql
+2022-05-11 16:28:22.956361 (Thread-12): 16:28:22  Parsing macros/adapters/schema.sql
+2022-05-11 16:28:22.958540 (Thread-12): 16:28:22  Parsing macros/adapters/indexes.sql
+2022-05-11 16:28:22.961128 (Thread-12): 16:28:22  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-05-11 16:28:22.963628 (Thread-12): 16:28:22  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-05-11 16:28:22.965366 (Thread-12): 16:28:22  Parsing macros/get_custom_name/get_custom_database.sql
+2022-05-11 16:28:22.966303 (Thread-13): handling ps request
+2022-05-11 16:28:22.968147 (Thread-12): 16:28:22  Parsing macros/etc/datetime.sql
+2022-05-11 16:28:22.968547 (Thread-13): 16:28:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c0c5970>]}
+2022-05-11 16:28:22.977051 (Thread-12): 16:28:22  Parsing macros/etc/statement.sql
+2022-05-11 16:28:22.977842 (Thread-13): sending response (<Response 105 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:22.982401 (Thread-12): 16:28:22  Parsing macros/generic_test_sql/unique.sql
+2022-05-11 16:28:22.983934 (Thread-12): 16:28:22  Parsing macros/generic_test_sql/not_null.sql
+2022-05-11 16:28:22.984559 (Thread-12): 16:28:22  Parsing macros/generic_test_sql/accepted_values.sql
+2022-05-11 16:28:22.986061 (Thread-12): 16:28:22  Parsing macros/generic_test_sql/relationships.sql
+2022-05-11 16:28:22.987020 (Thread-12): 16:28:22  Parsing macros/materializations/configs.sql
+2022-05-11 16:28:22.989367 (Thread-12): 16:28:22  Parsing macros/materializations/hooks.sql
+2022-05-11 16:28:22.993381 (Thread-12): 16:28:22  Parsing macros/materializations/models/table/table.sql
+2022-05-11 16:28:23.000631 (Thread-12): 16:28:23  Parsing macros/materializations/models/table/create_table_as.sql
+2022-05-11 16:28:23.003485 (Thread-12): 16:28:23  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-05-11 16:28:23.006138 (Thread-12): 16:28:23  Parsing macros/materializations/models/view/helpers.sql
+2022-05-11 16:28:23.007452 (Thread-12): 16:28:23  Parsing macros/materializations/models/view/create_view_as.sql
+2022-05-11 16:28:23.009749 (Thread-12): 16:28:23  Parsing macros/materializations/models/view/view.sql
+2022-05-11 16:28:23.016741 (Thread-12): 16:28:23  Parsing macros/materializations/models/incremental/incremental.sql
+2022-05-11 16:28:23.026532 (Thread-12): 16:28:23  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-05-11 16:28:23.041809 (Thread-12): 16:28:23  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-05-11 16:28:23.043389 (Thread-12): 16:28:23  Parsing macros/materializations/models/incremental/merge.sql
+2022-05-11 16:28:23.054498 (Thread-12): 16:28:23  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-05-11 16:28:23.059020 (Thread-12): 16:28:23  Parsing macros/materializations/seeds/helpers.sql
+2022-05-11 16:28:23.082777 (Thread-12): 16:28:23  Parsing macros/materializations/seeds/seed.sql
+2022-05-11 16:28:23.088566 (Thread-12): 16:28:23  Parsing macros/materializations/tests/helpers.sql
+2022-05-11 16:28:23.090385 (Thread-12): 16:28:23  Parsing macros/materializations/tests/test.sql
+2022-05-11 16:28:23.094683 (Thread-12): 16:28:23  Parsing macros/materializations/tests/where_subquery.sql
+2022-05-11 16:28:23.102274 (Thread-12): 16:28:23  Parsing macros/materializations/snapshots/helpers.sql
+2022-05-11 16:28:23.113436 (Thread-12): 16:28:23  Parsing macros/materializations/snapshots/strategies.sql
+2022-05-11 16:28:23.129775 (Thread-12): 16:28:23  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-05-11 16:28:23.131442 (Thread-12): 16:28:23  Parsing macros/materializations/snapshots/snapshot.sql
+2022-05-11 16:28:23.142839 (Thread-12): 16:28:23  Parsing tests/generic/builtin.sql
+2022-05-11 16:28:23.145842 (Thread-12): 16:28:23  Parsing macros/sql/pivot.sql
+2022-05-11 16:28:23.149760 (Thread-12): 16:28:23  Parsing macros/sql/star.sql
+2022-05-11 16:28:23.161870 (Thread-12): 16:28:23  Parsing macros/sql/surrogate_key.sql
+2022-05-11 16:28:23.165306 (Thread-12): 16:28:23  Parsing macros/sql/get_query_results_as_dict.sql
+2022-05-11 16:28:23.167700 (Thread-12): 16:28:23  Parsing macros/sql/date_spine.sql
+2022-05-11 16:28:23.172262 (Thread-12): 16:28:23  Parsing macros/sql/get_column_values.sql
+2022-05-11 16:28:23.177378 (Thread-12): 16:28:23  Parsing macros/sql/groupby.sql
+2022-05-11 16:28:23.178763 (Thread-12): 16:28:23  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-05-11 16:28:23.184793 (Thread-12): 16:28:23  Parsing macros/sql/nullcheck_table.sql
+2022-05-11 16:28:23.186429 (Thread-12): 16:28:23  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-05-11 16:28:23.188079 (Thread-12): 16:28:23  Parsing macros/sql/get_relations_by_pattern.sql
+2022-05-11 16:28:23.191376 (Thread-12): 16:28:23  Parsing macros/sql/get_relations_by_prefix.sql
+2022-05-11 16:28:23.194639 (Thread-12): 16:28:23  Parsing macros/sql/safe_add.sql
+2022-05-11 16:28:23.196262 (Thread-12): 16:28:23  Parsing macros/sql/haversine_distance.sql
+2022-05-11 16:28:23.202122 (Thread-12): 16:28:23  Parsing macros/sql/unpivot.sql
+2022-05-11 16:28:23.209707 (Thread-12): 16:28:23  Parsing macros/sql/generate_series.sql
+2022-05-11 16:28:23.214466 (Thread-12): 16:28:23  Parsing macros/sql/nullcheck.sql
+2022-05-11 16:28:23.218163 (Thread-14): handling status request
+2022-05-11 16:28:23.223573 (Thread-12): 16:28:23  Parsing macros/sql/union.sql
+2022-05-11 16:28:23.223927 (Thread-14): 16:28:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e3f8cb640>]}
+2022-05-11 16:28:23.232065 (Thread-12): 16:28:23  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-05-11 16:28:23.232581 (Thread-14): sending response (<Response 185 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:23.257017 (Thread-12): 16:28:23  Parsing macros/jinja_helpers/pretty_time.sql
+2022-05-11 16:28:23.258377 (Thread-12): 16:28:23  Parsing macros/jinja_helpers/slugify.sql
+2022-05-11 16:28:23.259662 (Thread-12): 16:28:23  Parsing macros/jinja_helpers/log_info.sql
+2022-05-11 16:28:23.260892 (Thread-12): 16:28:23  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-05-11 16:28:23.262037 (Thread-12): 16:28:23  Parsing macros/web/get_url_parameter.sql
+2022-05-11 16:28:23.263606 (Thread-12): 16:28:23  Parsing macros/web/get_url_path.sql
+2022-05-11 16:28:23.266102 (Thread-12): 16:28:23  Parsing macros/web/get_url_host.sql
+2022-05-11 16:28:23.267985 (Thread-12): 16:28:23  Parsing macros/schema_tests/expression_is_true.sql
+2022-05-11 16:28:23.269758 (Thread-12): 16:28:23  Parsing macros/schema_tests/not_constant.sql
+2022-05-11 16:28:23.271016 (Thread-12): 16:28:23  Parsing macros/schema_tests/sequential_values.sql
+2022-05-11 16:28:23.273746 (Thread-12): 16:28:23  Parsing macros/schema_tests/not_null_proportion.sql
+2022-05-11 16:28:23.275890 (Thread-12): 16:28:23  Parsing macros/schema_tests/at_least_one.sql
+2022-05-11 16:28:23.277136 (Thread-12): 16:28:23  Parsing macros/schema_tests/equality.sql
+2022-05-11 16:28:23.280666 (Thread-12): 16:28:23  Parsing macros/schema_tests/test_not_null_where.sql
+2022-05-11 16:28:23.282115 (Thread-12): 16:28:23  Parsing macros/schema_tests/equal_rowcount.sql
+2022-05-11 16:28:23.283747 (Thread-12): 16:28:23  Parsing macros/schema_tests/not_accepted_values.sql
+2022-05-11 16:28:23.285802 (Thread-12): 16:28:23  Parsing macros/schema_tests/test_unique_where.sql
+2022-05-11 16:28:23.287235 (Thread-12): 16:28:23  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-05-11 16:28:23.295730 (Thread-12): 16:28:23  Parsing macros/schema_tests/relationships_where.sql
+2022-05-11 16:28:23.297959 (Thread-12): 16:28:23  Parsing macros/schema_tests/accepted_range.sql
+2022-05-11 16:28:23.300482 (Thread-12): 16:28:23  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-05-11 16:28:23.301104 (Thread-15): handling status request
+2022-05-11 16:28:23.302861 (Thread-12): 16:28:23  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-05-11 16:28:23.303192 (Thread-15): 16:28:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c12cfd0>]}
+2022-05-11 16:28:23.305962 (Thread-12): 16:28:23  Parsing macros/schema_tests/recency.sql
+2022-05-11 16:28:23.306435 (Thread-15): sending response (<Response 185 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:23.308197 (Thread-12): 16:28:23  Parsing macros/schema_tests/cardinality_equality.sql
+2022-05-11 16:28:23.310523 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/split_part.sql
+2022-05-11 16:28:23.312339 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/length.sql
+2022-05-11 16:28:23.313723 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-05-11 16:28:23.317216 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/right.sql
+2022-05-11 16:28:23.319498 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/hash.sql
+2022-05-11 16:28:23.320881 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/replace.sql
+2022-05-11 16:28:23.322147 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-05-11 16:28:23.323559 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/concat.sql
+2022-05-11 16:28:23.324561 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/_is_relation.sql
+2022-05-11 16:28:23.325707 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/identifier.sql
+2022-05-11 16:28:23.327519 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/datediff.sql
+2022-05-11 16:28:23.336819 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/dateadd.sql
+2022-05-11 16:28:23.339594 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/datatypes.sql
+2022-05-11 16:28:23.345282 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/position.sql
+2022-05-11 16:28:23.346860 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/literal.sql
+2022-05-11 16:28:23.347844 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-05-11 16:28:23.349705 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/width_bucket.sql
+2022-05-11 16:28:23.354685 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/date_trunc.sql
+2022-05-11 16:28:23.356143 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/except.sql
+2022-05-11 16:28:23.357194 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/safe_cast.sql
+2022-05-11 16:28:23.359224 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/last_day.sql
+2022-05-11 16:28:23.362677 (Thread-12): 16:28:23  Parsing macros/cross_db_utils/intersect.sql
+2022-05-11 16:28:23.420495 (Thread-16): handling status request
+2022-05-11 16:28:23.441322 (Thread-16): 16:28:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c0fd070>]}
+2022-05-11 16:28:23.446975 (Thread-16): sending response (<Response 185 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:23.699249 (Thread-12): 16:28:23  1603: static parser failed on adwords/google_ads_campaigns.sql
+2022-05-11 16:28:23.723774 (Thread-12): 16:28:23  1602: parser fallback to jinja rendering on adwords/google_ads_campaigns.sql
+2022-05-11 16:28:23.725002 (Thread-12): 16:28:23  1603: static parser failed on facebook/fb_ads_insights.sql
+2022-05-11 16:28:23.730779 (Thread-12): 16:28:23  1602: parser fallback to jinja rendering on facebook/fb_ads_insights.sql
+2022-05-11 16:28:23.732740 (Thread-12): 16:28:23  1699: static parser successfully parsed facebook/fb_ads_campaigns.sql
+2022-05-11 16:28:23.734795 (Thread-12): 16:28:23  1603: static parser failed on admin/conversion_goals_proc.sql
+2022-05-11 16:28:23.738129 (Thread-12): 16:28:23  1602: parser fallback to jinja rendering on admin/conversion_goals_proc.sql
+2022-05-11 16:28:23.739155 (Thread-12): 16:28:23  1603: static parser failed on admin/accounts_proc.sql
+2022-05-11 16:28:23.742256 (Thread-12): 16:28:23  1602: parser fallback to jinja rendering on admin/accounts_proc.sql
+2022-05-11 16:28:23.743483 (Thread-12): 16:28:23  1699: static parser successfully parsed core/advertising_union_all.sql
+2022-05-11 16:28:23.839574 (Thread-12): 16:28:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e0caecd00>]}
+2022-05-11 16:28:25.471022 (Thread-17): handling status request
+2022-05-11 16:28:25.471396 (Thread-17): 16:28:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e0cabe490>]}
+2022-05-11 16:28:25.472888 (Thread-17): sending response (<Response 37056 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:25.693814 (Thread-18): handling status request
+2022-05-11 16:28:25.694219 (Thread-18): 16:28:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c081730>]}
+2022-05-11 16:28:25.695596 (Thread-18): sending response (<Response 37056 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:25.726192 (Thread-19): handling status request
+2022-05-11 16:28:25.726540 (Thread-19): 16:28:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e2c081d30>]}
+2022-05-11 16:28:25.727847 (Thread-19): sending response (<Response 37056 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:32.371077 (Thread-20): handling status request
+2022-05-11 16:28:32.371442 (Thread-20): 16:28:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e0cae3220>]}
+2022-05-11 16:28:32.372769 (Thread-20): sending response (<Response 37056 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:32.383606 (Thread-21): handling status request
+2022-05-11 16:28:32.383880 (Thread-21): 16:28:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e0caecbb0>]}
+2022-05-11 16:28:32.385102 (Thread-21): sending response (<Response 37056 bytes [200 OK]>) to 10.0.12.141
+2022-05-11 16:28:37.700020 (Thread-22): handling status request
+2022-05-11 16:28:37.700425 (Thread-22): 16:28:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '9c6e773a-7a09-4f22-aa29-94881bad8390', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e0caecfa0>]}
+2022-05-11 16:28:37.701844 (Thread-22): sending response (<Response 37056 bytes [200 OK]>) to 10.0.12.141
